@@ -56,7 +56,7 @@ h3 {
 
 h4 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	color: #828282;
 	color: var(--warm-grey);
 }
@@ -168,6 +168,74 @@ button, input, optgroup, select, textarea {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 0;
+}
+.newsletter {
+	background-color: #ebebeb;
+	background-color: var(--white-two);
+}
+.newsletter h2, 
+.contact h3 {
+	color: #3f5989;
+	color: var(--denim);
+}
+
+.contact input,
+.contact textarea {
+	background-color: #ebebeb;
+	background-color: var(--white-two);
+	color: #828282;
+	color: var(--warm-grey);
+}
+
+.footer-top {
+	background: #fff url(../img/geo-pattern-2-2.png);
+	background: -webkit-image-set( url('../img/geo-pattern-2-2.png') 1x, url('../img/geo-pattern-2-2@2x.png') 2x ,, url('../img/geo-pattern-2-2@3x.png') 3x );
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 200px;
+}
+
+.footer {
+	background-color: #ebebeb;
+	background-color: var(--white-two);
+}
+
+.footer p {
+	line-height: 20px;
+}
+
+.footer h5 {
+	font-size: 14px;
+	line-height: 18px;
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer small {
+	font-size: 10px;
+	line-height: 14px;
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-left {
+
+}
+
+.footer ul {
+	list-style-type: none;
+	margin-left: 0;
+    padding-left: .25rem;
+}
+.footer ul li {
+	color: #828282;
+	font-size: 14px;
+}
+.footer-small-print {
+	min-height: 50px;
+	background-color: #3f5989;
+	background-color: var(--denim);
 }
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -385,7 +453,7 @@ button.get-started {
 		width: 700px;
 	}
 	.solutions {
-	    background-position: 100% 0;
+	    background-position: 150% 0;
 	}
 }
 
