@@ -1,5 +1,4 @@
 body {
-  padding-top: 2rem;
   background-image: url(../img/geo-pattern-2.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -104,7 +103,7 @@ strong.header {
 }
 /* Navbar Header */
 .navbar {
-	margin-bottom: 2rem;
+
 }
 .navbar-nav .nav-item {
 	padding: 5px 15px;
@@ -112,12 +111,16 @@ strong.header {
 .navbar-nav .nav-link {
 	font-size: 20px;
 	text-align: center;
-	color: #fff;
-	color: #fff !important;
+	color: var(--denim);
 	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
 	text-transform: uppercase;
     font-weight: 700;
 }
+.navbar-inverse .navbar-nav .nav-link {
+	color: var(--denim);
+}
+
+
 .navbar-inverse .navbar-toggler {
 	background: transparent; 
 }
