@@ -1,3 +1,6 @@
+html, body {
+	height: 100%;
+}
 body {
   background-image: url(../img/geo-pattern-2.png);
   background-repeat: no-repeat;
@@ -6,6 +9,7 @@ body {
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 
@@ -36,7 +40,7 @@ h1 {
 h2 {
 	font-family: var(--header-font-family);
 	font-size: 2em;
-	line-height: 2.4em;
+	line-height: 1.4em;
 	color: #696969;
 	color: var(--brownish-grey);
 }
@@ -44,7 +48,7 @@ h2 {
 h2.title {
     font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
     font-weight: bold;
-    font-size: 47px;
+    font-size: 42px;
     color: #ffffff;
     line-height: 1.3em;
     text-shadow: 1px 1px #26385c;
@@ -52,14 +56,22 @@ h2.title {
 h2.blue {
     font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
     font-weight: bold;
-    font-size: 47px;
+    font-size: 42px;
     color: #3f5989;
     line-height: 1.3em;
     text-shadow: 1px 1px #ebebeb;
 }
+h2.white {
+	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #fff;
+    line-height: 1.3em;
+    text-shadow: 1px 1px #3f5989;
+}
 h3 {
 	font-family: var(--header-font-family);
-	font-size: 30px;
+	font-size: 26px;
 	color: #ffffff;
 	color: var(--white);
 }
@@ -81,9 +93,9 @@ p {
 }
 p.header {
 	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
-	line-height: 1.4em;
+	line-height: 1.6em;
 	font-weight: 400;
-	font-size: 1.8em;
+	font-size: 1.4em;
 	color: #fff;
 }
 strong {
@@ -96,6 +108,13 @@ strong.header {
     font-size: 1.6em;
     padding-bottom: 40px;
 }
+p.header strong {
+	color: #5eb050;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #26385c;
+	-webkit-animation: pulse 2s infinite cubic-bezier(.66,0,0,1);
+    animation: pulse 2s infinite cubic-bezier(.66,0,0,1);
+}
 .font-alt p,
 .font-alt h2,
 .font-alt li {
@@ -103,24 +122,48 @@ strong.header {
 }
 /* Navbar Header */
 .navbar {
-
+	padding: 0;
+	height: 80px;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .navbar-nav .nav-item {
 	padding: 5px 15px;
+	height: 100%;
 }
 .navbar-nav .nav-link {
-	font-size: 20px;
-	text-align: center;
+	font-size: 16px;
 	color: var(--denim);
 	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
-	text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
+    padding: 0;
 }
 .navbar-inverse .navbar-nav .nav-link {
 	color: var(--denim);
+	height: 100%;
+}
+.navbar-nav .active,
+.navbar-nav .nav-item:hover {
+	border-bottom: 4px solid #76b197;
+}
+.navbar-nav .active>.nav-link,
+.navbar-inverse .navbar-nav .active>.nav-link {
+	font-weight: 700;
+	color: var(--denim);
 }
 
-
+.navbar-nav .active>.nav-link:hover,
+.navbar-inverse .navbar-nav .active>.nav-link:hover {
+	color: var(--tea);
+}
+.navbar-inverse .navbar-nav .nav-link:focus, 
+.navbar-inverse .navbar-nav .nav-link:hover {
+	color: var(--tea);
+}
 .navbar-inverse .navbar-toggler {
 	background: transparent; 
 }
@@ -133,8 +176,12 @@ strong.header {
     margin-bottom: 5px;
 }
 
+img.logo {
+	max-height: 80px;
+}
 .bg-inverse {
-	background-color: transparent !important;
+	background-color: rgba(255, 255, 255, 1) !important;
+	box-shadow: 0 1px 5px rgba(0,0,0,.9);
 }
 .bg-white {
 	background: #fff;
@@ -142,7 +189,7 @@ strong.header {
 
 /* Home Page Sections */
 .home-row {
-	margin-top: 150px;
+	margin-top: 200px;
 }
 .home-banner {
 	background-color: #3f5989;
@@ -229,7 +276,7 @@ button, input, optgroup, select, textarea {
     background-repeat: no-repeat;
     background-position: 100% 0;
     */
-    max-height: 400px;
+    max-height: 550px;
 }
 .newsletter {
 	background-color: #ebebeb;
@@ -243,24 +290,36 @@ button, input, optgroup, select, textarea {
 
 .contact input,
 .contact textarea {
-	background-color: #ebebeb;
-	background-color: var(--white-two);
-    color: var(--denim);
+	background-color: rgba(255, 255, 255, .2);
+	border-width: 0px;
+	border-bottom: 4px solid #81dca8;
+    color: #fff;
     padding: 20px 10px;
-    font-size: 1.4em;
+    font-size: 1.6em;
+    border-radius: 0px;
+    width: 100%;
 }
 
 .footer-top {
-	background: #fff url(../img/bg-geo-2.jpg);
-	background: -webkit-image-set( url('../img/geo-pattern-2-2.png') 1x, url('../img/geo-pattern-2-2@2x.png') 2x ,, url('../img/geo-pattern-2-2@3x.png') 3x );
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
+	
 }
+.footer-top {
+    /* The image used */
+    background: #fff url(../img/defyne_atlanta_background.jpg);
 
+    /* Set a specific height */
+    height: 950px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .footer {
 	background-color: #ebebeb;
 	background-color: var(--white-two);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 
 .footer p {
@@ -333,7 +392,7 @@ button, input, optgroup, select, textarea {
 	top: 10px;
 }
 .carousel-caption {
-	top: 33%;
+	top: 20%;
 }
 
 #search {
@@ -384,21 +443,24 @@ button, input, optgroup, select, textarea {
 	transition: right 0;
 	border: 1px solid #3a3a3a;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: $color-font-white;
+
+
+::-webkit-input-placeholder {
+	color: white;
 }
-::-moz-placeholder { /* Firefox 19+ */
-	color: $color-font-white;
+:-moz-placeholder {
+	color: white;
+	opacity: 1;
 }
-:-ms-input-placeholder { /* IE 10+ */
-	color: $color-font-white;
+::-moz-placeholder {
+	color: white;
+	opacity: 1;
 }
-:-moz-placeholder { /* Firefox 18- */
-	color: $color-font-white;
+:-ms-input-placeholder {
+	color: white;
 }
-::-webkit-search-cancel-button {
-   webkit-appearance: searchfield-cancel-button;
-}
+
+
 
 #input input:focus {
 	outline: none
@@ -470,7 +532,8 @@ button.get-started {
 	    top: 20px;
 	}
 	.home-row {
-	    margin-top: 0;
+	    margin-top: 150px;
+	    min-height: 500px;
 	}
 	.form-inline {
 		display: none;
@@ -536,7 +599,7 @@ button.get-started {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 	.navbar-brand img {
-		max-width: 100%;
+		
 	}
 	#input input {
 		width: 400px;
@@ -553,7 +616,8 @@ button.get-started {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.home-row {
-	    margin-top: 150px;
+	    margin-top: 50px;
+	    min-height: 500px;
 	}
 	.form-inline {
 		display: -webkit-box;

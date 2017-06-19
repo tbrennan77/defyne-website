@@ -20,196 +20,61 @@
 	<link rel="stylesheet" href="css/menu.css" />
 </head>
 <body>
-
-	<div class="container-fluid mega-menu-container">
+<?php 
+	//get_template_part('templates/search');
+?>
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+	<div class="container">
 		<div class="row">
-			<div class="container">
-				<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm">
-					<button class="navbar-toggler float-right hidden-md-up" data-target=".js-navbar-collapse" data-toggle="collapse" type="button">☰</button>
-
-					<ul class="nav navbar-nav mx-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Products</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Developers</a>
-						</li>
-						<li class="nav-item">
-							<img src="img/Defyne-Solutions_V2_Final.png" class="logo img-fluid animated flash" style="max-height: 50px; width: auto;">
-						</li>
-						<li class="dropdown mega-dropdown nav-item">
-							<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Help Center <span class="caret"></span></a>
-							<ul class="dropdown-menu mega-dropdown-menu">
-								<li class="col-md-3 dropdown-item">
-									<ul>
-										<li class="dropdown-header">Products</li>
-										<li style="list-style: none; display: inline">
-											<div class="carousel slide" data-ride="carousel" id="menCollection">
-												<div class="carousel-inner">
-													<div class="item active carousel-item">
-														<a href="#"><img alt="product 1" class="img-fluid" src="http://placehold.it/280x150/ff3546/f5f5f5/&amp;text=New+Collection"></a><br />
-												
-														<button class="btn btn-primary" type="button">49,99 €</button> 
-														<button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-													</div><!-- End Item -->
-													<div class="item carousel-item">
-														<a href="#"><img alt="product 2" class="" src="http://placehold.it/260x150/3498db/f5f5f5/&amp;text=New+Collection"></a><br />
-														
-														<button class="btn btn-primary" type="button">9,99 €</button> 
-														<button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-													</div><!-- End Item -->
-													<div class="item carousel-item">
-														<a href="#"><img alt="product 3" class="" src="http://placehold.it/260x150/2ecc71/f5f5f5/&amp;text=New+Collection"></a><br />
-														
-														<button class="btn btn-primary" type="button">49,99 €</button> 
-														<button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-													</div><!-- End Item -->
-												</div><!-- End Carousel Inner -->
-												<!-- Controls --> <a class="left carousel-control" data-slide="prev" href="#menCollection" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#menCollection" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
-											</div><!-- /.carousel -->
-										</li>
-										<li class="divider"></li>
-										<li>
-											<a href="#">View all Features <span class="glyphicon glyphicon-chevron-right float-right"></span></a>
-										</li>
-									</ul>
-								</li>
-								<li class="col-md-3 dropdown-item">
-									<ul>
-										<li class="dropdown-header">Features</li>
-										<li>
-											<a href="#">Feat. One</a>
-										</li>
-										<li>
-											<a href="#">Feat. Two</a>
-										</li>
-										<li>
-											<a href="#">Feat. Three</a>
-										</li>
-										<li>
-											<a href="#">Feat. Four</a>
-										</li>
-									</ul>
-								</li>
-								<li class="col-md-3 dropdown-item">
-									<ul>
-										<li class="dropdown-header">Plus</li>
-										<li>
-											<a href="#">Navbar Inverse</a>
-										</li>
-										<li>
-											<a href="#">Pull Right Elements</a>
-										</li>
-										<li>
-											<a href="#">Coloured Headers</a>
-										</li>
-										<li>
-											<a href="#">Primary Buttons &amp; Default</a>
-										</li>
-									</ul>
-								</li>
-								<li class="col-md-3 dropdown-item">
-									<ul>
-										<li class="dropdown-header">Much more</li>
-										<li>
-											<a href="#">Easy to Customize</a>
-										</li>
-										<li>
-											<a href="#">Calls to action</a>
-										</li>
-										<li>
-											<a href="#">Custom Fonts</a>
-										</li>
-										<li>
-											<a href="#">Slide down on Hover</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown nav-item">
-							<a aria-expanded="false" class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button">Contact <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown-item">
-									<a href="#">Action</a>
-								</li>
-								<li class="dropdown-item">
-									<a href="#">Another action</a>
-								</li>
-								<li class="dropdown-item">
-									<a href="#">Item Three</a>
-								</li>
-								<li class="divider dropdown-item"></li>
-								<li class="dropdown-item">
-									<a href="#">Item Four</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-
-	<!-- Header -->
-	<div class="container" style="display: none;">
-		<div class="row">
-			<div class="col-sm-12">
-
-				<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-static-top">
-			      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-
-			      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			        <ul class="navbar-nav justify-content-center mx-auto">
-			          <li class="nav-item mt-4">
-			            <a class="nav-link" href="#">Products</a>
-			          </li>
-			          <li class="nav-item mt-4">
-			            <a class="nav-link" href="#">Developers</a>
-			          </li>
-			          <li class="nav-item active">
-			            <a class="nav-link" href="#">
-							<img src="img/Defyne-Solutions_V2_Final.png" class="logo img-fluid animated flash">
-			      		<span class="sr-only">(current)</span></a>
-			          </li>
-			          <li class="nav-item mt-4">
-			            <a class="nav-link" href="#">Help Center</a>
-			          </li>
-			          <li class="nav-item mt-4">
-			            <a class="nav-link" href="/contact.html">Contact</a>
-			          </li>
-			        </ul>
-			        <form class="form-inline my-2 my-lg-0" style="display: none;">
-			          <div id="input"><input type="text" name="s" id="search-terms" placeholder="Type then hit enter..."><button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-			          <div id="label" class=""><img src="img/group-9.png" srcset="img/group-9@2x.png 2x, img/group-9@3x.png 3x" class="img-fluid" /></div>
-			        </form>
-			      </div>
-			    </nav>
+			<div class="col-sm-10 col-lg-4">
+		      <a class="navbar-brand" href="#">
+		      	<img src="img/image001.png" class="img-fluid" />
+		      </a>
 	    	</div>
+	    	<div class="col-sm-2 hidden-md-up">
+		    	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+		    </div>
+		    <div class="collapse navbar-collapse col-lg-8 col-sm-12" id="navbarCollapse">
+		        <ul class="navbar-nav mr-auto">
+		          <li class="nav-item active">
+		            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">About</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Contact</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Products</a>
+		          </li>
+		        </ul>
+		    </div>
 	    </div>
-    </div><!-- /.container -->
+    </div>
+</nav>
+
+    <!-- /.container -->
 
     <!-- Full Screen BG Video -->
 	<div class="fullscreen-bg">
-	    <video loop muted autoplay poster="video/ocean.jpg" class="fullscreen-bg__video" src="http://trygomedia.wpengine.com/content/uploads/Mac-Video-1-1.mp4">
-	        <source src="http://trygomedia.wpengine.com/content/uploads/Mac-Video-1-1.mp4" type="video/mp4">
+	    <video loop muted autoplay poster="video/Very-Open-Space.jpg" class="fullscreen-bg__video" src="video/Very-Open-Space.mp4">
+	        <source src="video/Very-Open-Space.mp4" type="video/mp4">
+	        <source src="video/Very-Open-Space.webm" type="video/webm">
 	    </video>
 	</div>
 
     <!-- Main Content Area -->
     <div class="container home-row">
-      <div class="row pb-4 mb-4">
-      	<div class="col-sm-12 col-lg-12 text-center" data-aos="zoom-in" data-aos-duration="800">
-        	<h2 class="title">Our Unique Approach to Credit Card Processing</h2>
-			<p class="header">We are the only credit card processor that rewards your business for transactions with Cash Back that you can invest back into what you do best in your business.</p>
+      <div class="row h-100 align-items-center">
+      	<div class="col-xs-12 col-lg-12 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800">
+        	<h2 class="title">Re-Defining Payments</h2>
+			<p class="header">Taking a new approach with leading edge technology and best in class service with our clients. Simple, Smooth and Transparent our promise to our customers.<br />The way it should be done.</p>
 			<p>
-				<button class="btn btn-default">Get Started Today</button>
-				<button class="btn btn-alt">Learn More</button>
+				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
+				<a href="/products"><button class="btn btn-alt">Learn More</button></a>
 			</p>
       	</div>
       </div>
@@ -221,7 +86,7 @@
       	<div class="container">
       		<div class="row">
 		      <div class="col-sm-12 text-center">
-		      	<h2 class="font-white">Update: Credit Card Processing Fees Lower Then Ever</h2>
+		      	<h2 class="font-white">The Power of One - one solution, one company, one partner. Defyne Payments</h2>
 		      </div>
 		     </div>
 	    </div>
@@ -244,8 +109,8 @@
                 <div class="fill" style="background-image: url('img/group-94-2.png');"></div>
                 <div class="carousel-caption" data-aos="fade-up">
                 	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
-                     <h2 class="title">EMV is Here. Are You Ready?</h2>
-                     <button class="btn btn-alt hvr-grow mt-4">Learn More</button>
+                     <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                     <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
             <div class="item">
@@ -281,8 +146,8 @@
 		    <div class="container">
 		    	<div class="row">
 		    		<div class="col-sm-12 text-center pt-4 pb-4">
-		    			<h2 class="pt-4 pb-2 blue">Start Selling Fast</h2>
-		    			<p style="font-size: 1.5em;">We make credit card processing simple. Accept Visa, Mastercard, Discover, and American Express all for one low rate, with no surprise fees. See deposits in your bank account as soon as the next business day.</p>
+		    			<h2 class="pt-4 pb-2 blue">Setup to sell fast and get paid faster</h2>
+		    			<p style="font-size: 1.25em;">We make credit card processing simple. Accept Visa, MasterCard, Discover, and American Express with simplified wholesale pricing. Next Day Funding, with cutoff time of 11pm EST. <strong>Simple, Smooth, Transparent, and FAST.</strong></p>
 		    		</div>
 		    	</div>
 		    	<div class="row home-panels">
@@ -291,34 +156,34 @@
 						  <div class="panel-body text-center m-2 p-1">
 						    <img src="img/group-17.png" srcset="img/group-17@2x.png 2x, img/group-17@3x.png 3x" class="pt-4" />
 						    <strong class="pt-4 pb-4">Customizable</strong>
-						    <p>Payments your way - any channel, acquirer agnostic, integrated to hundreds of POS, e-commerce and gift card providers.</p>
+						    <p>We are flexible to provide integrations to thousands of POS, eCommerce and value add service providers to enhance your business</p>
 						  </div>
 						</div>
 			    	</div>
 			    	<div class="col-sm-6 col-lg-3 hvr-grow">
-			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="250">
-						  <div class="panel-body text-center m-2 p-1">
-						    <img src="img/group-40.png" srcset="img/group-40@2x.png 2x, img/group-40@3x.png 3x" class="pt-4" />
-						    <strong class="pt-4 pb-4">Secure</strong>
-						    <p>True peace of mind – cardholder data never passes to the POS, e-commerce, or merchant system.</p>
-						  </div>
-						</div>
-			    	</div>
-			    	<div class="col-sm-6 col-lg-3 hvr-grow">
-			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="500">
+			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="100">
 						  <div class="panel-body text-center m-2 p-1">
 						    <img src="img/path-91.png" srcset="img/path-91@2x.png 2x, img/path-91@3x.png 3x" class="pt-4" />
 						    <strong class="pt-4 pb-4">Feature Rich</strong>
-						    <p>Payment types, cost savings and control features, customer engagement, and industry specific options.</p>
+						    <p>Re-Defyning the payments landscape with products that provide your business the newest advantages over your competitors</p>
 						  </div>
 						</div>
 			    	</div>
 			    	<div class="col-sm-6 col-lg-3 hvr-grow">
-			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="750">
+			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="200	">
+						  <div class="panel-body text-center m-2 p-1">
+						    <img src="img/group-40.png" srcset="img/group-40@2x.png 2x, img/group-40@3x.png 3x" class="pt-4" />
+						    <strong class="pt-4 pb-4">Secure</strong>
+						    <p>We leverage the largest payment processing platforms in the world to ensure PCI-DSS and EMV compliance and safety for your business payments.</p>
+						  </div>
+						</div>
+			    	</div>
+			    	<div class="col-sm-6 col-lg-3 hvr-grow">
+			    		<div class="panel panel-default rounded" data-aos="zoom-in-left" data-aos-delay="300">
 						  <div class="panel-body text-center m-2 p-1">
 						    <img src="img/group-25.png" srcset="img/group-25@2x.png 2x, img/group-25@3x.png 3x" class="pt-4" />
-						    <strong class="pt-4 pb-4">Future Proof</strong>
-						    <p>Updates delivered seamlessly via the cloud to every device and channel.</p>
+						    <strong class="pt-4 pb-4">Support</strong>
+						    <p>We provide hands on service to our customers with a live person available to assist you with your business. The best leading edge technology and service experience. Your processor Re-Defyned.</p>
 						  </div>
 						</div>
 			    	</div>
@@ -339,7 +204,17 @@
     			<div class="row">
     				<div class="col-lg-4 col-sm-12 pt-4 pb-4 font-alt">
 	    				<h2 class="header">Defyne Solution Suite</h2>
-	    				<p>Curabitur non nisi nec velit at tempor vulputate ac ut odio. Cras nec augue sit amet orci condimentum cursus tempus.</p>
+	    				<p>We offer the following solutions in addition to connectivity with virtually any third-party technology platform or gateway.</p>
+
+	    				<ul>
+	    					<li>Defyne POS and Mobile</li>
+	    					<li>Poynt POS Terminal options</li>
+	    					<li>Clover Mini and Mobile</li>
+	    					<li>Aldelo POS</li>
+	    					<li>Aptito POS</li>
+	    					<li>MX virtual terminal & POS</li>
+	    					<li>Sage Software</li>
+	    				</ul>
 						<button class="mt-4 mb-4 btn btn-alt hvr-grow ">Learn More</button>
     				</div>
     				<div class="col-sm-0 col-lg-4">
@@ -378,27 +253,29 @@
 		    <div class="container contact" data-aos="fade-down">
 		    	<div class="row pt-4 pb-4">
 		    		<div class="col-sm-8 text-center mx-auto">
-		    			<h2 class="pt-4 pb-4 blue">Ready to Start a Conversation?</h3>
-		    			<p class="pt-4 pb-4">Give us a call <strong><a href="tel:8660000000">(866) 000-0000</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
+		    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
+		    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:8660000000">(866) 000-0000</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
 		    		</div>
 		    		<div class="col-sm-8 text-center pb-4 mx-auto">
 		    			<form>
 						  <div class="form-group pt-4">
-						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-						    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						    <input class="" type="email" placeholder="Enter email" />
 						  </div>
 						  <div class="form-group row">
-							  <div class="col-6">
-							    <input class="form-control" type="text" placeholder="Name" id="example-text-input">
+							  <div class="col-12">
+							    <input class="" type="text" placeholder="Name" />
 							  </div>
-							  <div class="col-6">
-							    <input class="form-control" type="tel" placeholder="Phone" id="example-text-input">
+						  </div>
+						  <div class="form-group row">
+							  <div class="col-12">
+							    <input class="" type="tel" placeholder="Phone" />
 							  </div>
 						  </div>
 						  <div class="form-group">
-						    <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Desciption"></textarea>
+						    <textarea class="" id="exampleTextarea" rows="5" placeholder="Desciption"></textarea>
 						  </div>
 						  <div class="form-group">
+						  	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						     <button type="submit" class="btn btn-default btn-contact hvr-grow">Let's Talk</button>
 						  </div>
 						</form>

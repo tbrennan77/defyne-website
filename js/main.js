@@ -69,31 +69,6 @@ if ( typeof define === 'function' && define.amd ) {
 
 
 
-(function(window){
-
-    // get vars
-    var searchEl = document.querySelector("#input");
-    var labelEl = document.querySelector("#label");
-
-    // register clicks and toggle classes
-    labelEl.addEventListener("click",function(){
-        if (classie.has(searchEl,"focus")) {
-            classie.remove(searchEl,"focus");
-            //classie.remove(searchEl,"animated");
-            classie.remove(searchEl,"rubberBand");
-            classie.remove(labelEl,"active");
-        } else {
-            classie.add(searchEl,"focus");
-            //classie.add(searchEl,"animated");
-            classie.add(searchEl,"rubberBand");
-            classie.add(labelEl,"active");
-        }
-    });
-
-
-}(window));
-
-
 
 $(document).ready(function(){
     $(".dropdown").hover(            
@@ -106,5 +81,25 @@ $(document).ready(function(){
             $(this).toggleClass('open');       
         }
     );
-});
 
+
+
+        $(window).on("scroll", function() {
+          if($(window).scrollTop() > 100) {
+              $(".navbar").addClass("header-scroll");
+              $(".navbar-brand").addClass("brand-logo-scroll");
+              $(".nav").addClass("nav-scroll");
+              $(".navbar-header").addClass("navbar-header-scroll");
+              $("#menu-redt-main-menu li a").addClass("menu-font-scroll");
+          } else {
+              //remove the background property so it comes transparent again (defined in your css)
+             $(".navbar").removeClass("header-scroll");
+             $(".navbar-brand").removeClass("brand-logo-scroll");
+             $(".nav").removeClass("nav-scroll");
+             $(".navbar-header").removeClass("navbar-header-scroll");
+             $("#menu-redt-main-menu li a").removeClass("menu-font-scroll");
+          }
+        });
+
+
+});
