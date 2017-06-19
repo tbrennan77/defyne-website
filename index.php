@@ -8,54 +8,13 @@
 
     <title>Defyne Payments | Defyne Your Success</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600" />
-	<link rel='stylesheet' id='divi-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' type='text/css' media='all' />
-	<link rel='stylesheet' id='et-gf-roboto-css'  href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese' type='text/css' media='all' />
-	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <?php include ("inc/header.php"); ?>
 
-	<link rel="stylesheet" href="css/styles.css" />
-	<link rel="stylesheet" href="css/hover.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="css/menu.css" />
 </head>
 <body>
-<?php 
-	//get_template_part('templates/search');
-?>
-<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 col-lg-4">
-		      <a class="navbar-brand" href="#">
-		      	<img src="img/image001.png" class="img-fluid" />
-		      </a>
-	    	</div>
-	    	<div class="col-sm-2 hidden-md-up">
-		    	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="navbar-toggler-icon"></span>
-			    </button>
-		    </div>
-		    <div class="collapse navbar-collapse col-lg-8 col-sm-12" id="navbarCollapse">
-		        <ul class="navbar-nav mr-auto">
-		          <li class="nav-item active">
-		            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#">About</a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#">Contact</a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#">Products</a>
-		          </li>
-		        </ul>
-		    </div>
-	    </div>
-    </div>
-</nav>
 
+	<!-- Footer Menu Row -->
+	<?php include ("inc/page-menu.php"); ?>
     <!-- /.container -->
 
     <!-- Full Screen BG Video -->
@@ -285,95 +244,10 @@
 		</div><!-- /.row -->
 	</div><!-- /.container-fluid -->
 
-    <!-- Footer Top Geometric Patter Row -->
-    <div class="container-fluid footer-top" style="display: none;">
-    	<div class="row">
-    		<div class="col-sm-12">
-
-    		</div>
-    	</div>
-    </div><!-- /.container -->
-
-    <!-- Footer  Row -->
-    <div class="container-fluid footer">
-    	<div class="row pt-4 pb-4">
-    		<div class="container pt-4 pb-4">
-    			<div class="row pt-4 pb-4">
-    				<div class="col-sm-12 col-lg-4 footer-left pr-4 mb-4">
-		    			<img src="img/group-48.png" srcset="img/group-48@2x.png 2x, img/group-48@3x.png 3x" class="img-fluid mb-4" />
-		    			<h5>&copy;2017 Defyne Payments, LLC.<br />
-							1 Federal Street Boston, MA 02110 USA | 1 (844) 278-7115</h5>
-		    		</div>
-		    		<div class="col-sm-12 col-lg-8">
-		    			<div class="row">
-			    			<div class="col-lg-3 col-sm-6">
-			    				<h4>Company</h4>
-			    				<ul>
-									<li>About Us</li>
-									<li>Leadership Team</li>
-									<li>Jobs</li>
-									<li>Contact Us</li>
-			    				</ul>
-			    			</div>
-			    			<div class="col-lg-3 col-sm-6">
-			    				<h4>Products</h4>
-			    				<ul>
-									<li>Defyne Platform</li>
-									<li>Defyne Countertop</li>
-									<li>Defyne Handheld</li>
-									<li>Payment Processing</li>
-									<li>Gift & Stored Value</li>
-									<li>Equipment</li>
-			    				</ul>
-		    				</div>
-		    				<div class="col-lg-3 col-sm-6">
-		    					<h4>Resources</h4>
-		    					<ul>
-									<li>About Us</li>
-									<li>Leadership Team</li>
-									<li>Jobs</li>
-									<li>Contact Us</li>
-			    				</ul>
-		    				</div>
-		    				<div class="col-lg-3 col-sm-6">
-		    					<h4>Partners</h4>
-		    					<ul>
-									<li>About Us</li>
-									<li>Leadership Team</li>
-									<li>Jobs</li>
-									<li>Contact Us</li>
-			    				</ul>
-		    				</div>
-		    			</div>
-		    		</div>
-    			</div>
-    		</div>
-    	</div>
-    </div><!-- /.container -->
+    <!-- Footer Menu Row -->
+	<?php include ("inc/footer-menu.php"); ?>
 
     <!-- Footer Small Print Row -->
-    <div class="container-fluid footer-small-print">
-    	<div class="row">
-    		<div class="container">
-    			<div class="row">
-		    		<div class="col-sm-12 text-center">
-		    			<small>
-								Defyne Payments, LLC is a registered ISO/MSP of the following banks: US Bank-Minneapolis MN, National Association Buffalo, NY, Elavon, Inc. Georgia.
-								<br />Defyne Payments, LLCis a registered ISO of Wells Fargo Bank, N.A., Walnut Creek, CA. American Express requires separate approval. 
-								<br />Defyne Payments, LLC is a registered ISO of Wells Fargo Bank, N.A., Canadian Branch, Toronto, ON, Canada.
-							</small>
-		    		</div>
-		    	</div>
-		    </div>
-    	</div>
-    </div><!-- /.container -->
+    <?php include ("inc/footer.php"); ?>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-	<script src="js/main.js" type="text/javascript"></script>
-	<script>
-	    AOS.init();
-	</script>
 </body>
