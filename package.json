@@ -17,5 +17,8 @@
   ],
   "author": "Tim Brennan",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/trygomedia/defyne-website#readme"
+  "homepage": "https://bitbucket.org/trygomedia/defyne-website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
