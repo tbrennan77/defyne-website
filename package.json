@@ -1,0 +1,21 @@
+{
+  "name": "defyne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/trygomedia/defyne-website.git"
+  },
+  "keywords": [
+    "defyne",
+    "payment",
+    "cc"
+  ],
+  "author": "Tim Brennan",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/trygomedia/defyne-website#readme"
+}
