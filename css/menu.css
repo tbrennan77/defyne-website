@@ -15,9 +15,10 @@
 	transition: all 0.4s ease;
 	overflow: hidden;
 }
-.brand-logo-scroll {
+.brand-logo-scroll img {
 	height: 40px;
 	width: auto;
+	padding-top: 0px;
 }
 .navbar-header-scroll {
 	padding: 3px 0;
@@ -31,4 +32,8 @@
 }
 .menu-font-scroll {
 	font-size: 18px !important;
+}
+.header-scroll .navbar-nav .nav-link  {
+	height: 40px;
+	padding-top: 10px;
 }

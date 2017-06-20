@@ -30,7 +30,7 @@
       <div class="row h-100 align-items-center">
       	<div class="col-xs-12 col-lg-12 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800">
         	<h2 class="title">Re-Defining Payments</h2>
-			<p class="header">Taking a new approach with leading edge technology and best in class service with our clients. Simple, Smooth and Transparent our promise to our customers.<br />The way it should be done.</p>
+			<p class="header">Taking a new approach with leading edge technology and best in class service with our clients.<br />Simple, Smooth and Transparent our promise to our customers.<br />The way it should be done.</p>
 			<p>
 				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
 				<a href="/products"><button class="btn btn-alt">Learn More</button></a>
@@ -62,8 +62,8 @@
         </ol>
 
         <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
+        <div class="carousel-inner d-flex h-100" role="listbox">
+            <div class="carousel-item active justify-content-center align-self-center">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image: url('img/group-94-2.png');"></div>
                 <div class="carousel-caption" data-aos="fade-up">
@@ -72,14 +72,14 @@
                      <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
                 <div class="carousel-caption">
@@ -89,11 +89,11 @@
         </div>
 
         <!-- Controls -->
-		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
@@ -161,8 +161,8 @@
     	<div class="row">
     		<div class="container">
     			<div class="row">
-    				<div class="col-lg-4 col-sm-12 pt-4 pb-4 font-alt">
-	    				<h2 class="header">Defyne Solution Suite</h2>
+    				<div class="col-lg-5 col-sm-12 pt-4 pb-4 font-alt">
+	    				<h2 class="header white">Defyne Solution Suite</h2>
 	    				<p>We offer the following solutions in addition to connectivity with virtually any third-party technology platform or gateway.</p>
 
 	    				<ul>
@@ -176,7 +176,7 @@
 	    				</ul>
 						<button class="mt-4 mb-4 btn btn-alt hvr-grow ">Learn More</button>
     				</div>
-    				<div class="col-sm-0 col-lg-4">
+    				<div class="col-sm-0 col-lg-7">
     					<img src="img/carlos-muza-84523-1.png" data-aos="slide-left" data-aos-duration="1200" />
     				</div>
     			</div>

@@ -36,3 +36,10 @@ gulp.task('browserSync', function() {
     },
   })
 })
+
+// UseRef 
+gulp.task('useref', function(){
+  return gulp.src('app/*.html')
+    .pipe(useref())
+    .pipe(gulp.dest('dist'))
+});
