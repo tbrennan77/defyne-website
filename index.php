@@ -11,9 +11,9 @@
     <?php include ("inc/header.php"); ?>
 
 </head>
-<body>
+<body class="home">
 
-	<!-- Footer Menu Row -->
+	<!-- Page Menu Row -->
 	<?php include ("inc/page-menu.php"); ?>
     <!-- /.container -->
 

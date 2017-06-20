@@ -11,7 +11,7 @@
     <?php include ("inc/header.php"); ?>
 
 </head>
-<body>
+<body class="about">
 
 	<!-- Footer Menu Row -->
 	<?php include ("inc/page-menu.php"); ?>
@@ -21,11 +21,11 @@
 	<div class="jumbotron jumbotron-fluid" style="background-image: url('img/group-94-2.png');">
 	  <div class="container">
 	  	<div class="row">
-	  		<div class="col-sm-6 p-4">
+	  		<div class="col-sm-12 col-lg-6 p-4">
 			    <p class="lead">Put the best of payments to work for you with one powerful platform<br /> - it’s Defying & Defining</p>
 			    <button class="btn btn-default hvr-grow">Let's Talk</button>
 			</div>
-			<div class="col-sm-6 p-4">
+			<div class="hidden-md-down col-lg-6 p-4">
 				<img src="img/group-63.png" srcset="img/group-63@2x.png 2x, img/group-63@3x.png 3x" class="img-fluid" />
 			</div>
 	    </div>
@@ -92,15 +92,6 @@
     	<div class="row">
     		<div class="col-sm-12 text-center pt-4 pb-4">
     			<button class="mt-4 mb-4 btn btn-default hvr-grow get-started">Get Started Today</button>
-    		</div>
-    	</div>
-    </div><!-- /.container -->
-
-    <!-- Footer Top Geometric Patter Row -->
-    <div class="container-fluid footer-top">
-    	<div class="row">
-    		<div class="col-sm-12">
-
     		</div>
     	</div>
     </div><!-- /.container -->

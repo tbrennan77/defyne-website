@@ -101,5 +101,12 @@ $(document).ready(function(){
           }
         });
 
+  //alert(location.pathname.split("/")[2]);
+
+  $(function() {
+    //$('.nav-link[href^="/' + location.pathname.split("/")[2] + '"]:parent').addClass('active');
+  });
 
 });
+
+
