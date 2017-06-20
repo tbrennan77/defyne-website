@@ -1,5 +1,5 @@
 <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-	<div class="container ml-0-sm">
+	<div class="container force-mobile-full">
 		<div class="row w-100">
 			<div class="col-6 col-sm-10 col-lg-4">
 		      <a class="navbar-brand" href="#">

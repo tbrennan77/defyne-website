@@ -169,7 +169,7 @@ p.header strong {
 .navbar-nav .active,
 .navbar-nav .nav-item:hover {
 	border-bottom: 4px solid #76b197;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(235, 235, 235, .3);
     margin-bottom: 12px;
     -webkit-transition: linear .3s; /* Safari */
     transition: linear .3s;
@@ -218,7 +218,7 @@ img.logo {
 	max-height: 80px;
 }
 .bg-inverse {
-	background-color: rgba(255, 255, 255, .9) !important;
+	background-color: rgba(255, 255, 255, 1) !important;
 	box-shadow: 0 1px 5px rgba(0,0,0,.9);
 }
 .bg-white {
@@ -619,8 +619,17 @@ button.get-started {
 }
 
 @media (min-width: 300px) { 
+	.force-mobile-full {
+		margin-left: 0;
+    	margin-right: 0;
+	}
 	.navbar-brand img {
-		max-width: 200px;
+	    max-width: 150px;
+	    padding-left: 20px;
+	    margin-top: 10px;
+	}
+	.header-scroll .navbar-brand img {
+		margin-top: 0px;
 	}
 	.navbar-inverse .navbar-toggler {
 	    top: 20px;
@@ -637,13 +646,13 @@ button.get-started {
 	}
 	.navbar-collapse {
 		background-color: rgba(255,255,255,.9);
-		top: 4px;
+		top: 18px;
 		border: 1px solid #000;
 		border-top-width: 0px;
 		box-shadow: 0 1px 5px rgba(0,0,0,.9);
 	}
 	.header-scroll .navbar-collapse {
-		top: -3px;
+		top: -18px;
 	}
 	.solutions {
 		background: #81dca8;
@@ -654,8 +663,14 @@ button.get-started {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+	.force-mobile-full {
+		margin-left: auto;
+    	margin-right: auto;
+	}
 	.navbar-brand img {
-		
+	    max-width: 200px;
+	    padding-left: 0px;
+	    margin-top: 0px;
 	}
 	.navbar-nav .nav-link {
 	
