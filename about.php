@@ -38,8 +38,7 @@
     	<div class="row">
     		<div class="col-sm-12 text-center pt-4 pb-4">
     			<img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo img-fluid" />
-    			<h2 class="pt-4 pb-4 blue-h2">Defyne is the first payment technology to integrate proccessing, payment acceptance and customer experience in one fully-scalable platform</h2>
-    			<p class="grey-text">With our Defyne platform, customer can pay how they want, where they want, and be on their way quickly - and you can customize a system that works best for your business. Whether your business needs just a countertop, a portable solution, or both - we’ve got you covered.</p>
+    			<h2 class="pt-4 pb-4 blue-h2">Defyne Payments was created in April 2017 with one vision, to merge the mindset of new technology companies entering the payments industry; with the service, support and partnership that only the best of the best companies can deliver. By merging these business philosophies we are doing one thing Re-Defyning Payments. Simple, Smooth, Transparent, Fast.</p>
     		</div>
     	</div>
     </div><!-- /.container -->
@@ -48,8 +47,8 @@
 	<div class="container">
 	    <div class="row">
 	    	<div class="col-xss-12 col-lg-12 text-center blue pt-4">
-	    		<h1 class="blue">Our Leadership Team</h1>
-	    		<p class="grey-text pb-4">The heart of our business is our elite team of executives, each dedicated to the same high standard of integrity, innovation and professionalism.</p>
+	    		<h1 class="blue">Our Management Team</h1>
+	    		<p class="grey-text pb-4">Our Management team was carefully crafted to bring significant payments know how, and our technology with free thinking minds that create new solutions by keeping our customers and their needs first. Our team’s track record of success is unparalleled.</p>
 	    	</div>
 	        <div class="col-md-3 col-xs-6 col-xss-12">
 	            <div class="member text-center">
