@@ -10,6 +10,7 @@
 
     <?php include ("inc/header.php"); ?>
 
+    <link rel="stylesheet" href="css/about.css" />
 </head>
 <body class="about">
 
@@ -43,58 +44,91 @@
     	</div>
     </div><!-- /.container -->
 
-    <!-- Column Row -->
-    <div class="container">
-    	<div class="row">
-    		<div class="col-sm-12 text-center pt-4 pb-4">
-    			<h2 class="pt-4 pb-4">Start Selling Fast</h2>
-    			<p>We make credit card processing simple. Accept Visa, Mastercard, Discover, and American Express all for one low rate, with no surprise fees. See deposits in your bank account as soon as the next business day.</p>
-    		</div>
-    	</div>
-    	<div class="row home-panels">
-	    	<div class="col-sm-6 col-lg-3">
-	    		<div class="panel panel-default rounded">
-				  <div class="panel-body text-center m-4 p-4">
-				    <img src="img/group-17.png" srcset="img/group-17@2x.png 2x, img/group-17@3x.png 3x" />
-				    <strong class="pt-4 pb-4">Customizable</strong>
-				    <p>Payments your way - any channel, acquirer agnostic, integrated to hundreds of POS, e-commerce and gift card providers.</p>
-				  </div>
-				</div>
+    <!-- Team Container -->
+	<div class="container">
+	    <div class="row">
+	    	<div class="col-xss-12 col-lg-12 text-center blue pt-4">
+	    		<h1 class="blue">Our Leadership Team</h1>
+	    		<p class="grey-text pb-4">The heart of our business is our elite team of executives, each dedicated to the same high standard of integrity, innovation and professionalism.</p>
 	    	</div>
-	    	<div class="col-sm-6 col-lg-3">
-	    		<div class="panel panel-default rounded">
-				  <div class="panel-body text-center m-4 p-4">
-				    <img src="img/group-40.png" srcset="img/group-40@2x.png 2x, img/group-40@3x.png 3x" />
-				    <strong class="pt-4 pb-4">Secure</strong>
-				    <p>True peace of mind – cardholder data never passes to the POS, e-commerce, or merchant system.</p>
-				  </div>
-				</div>
-	    	</div>
-	    	<div class="col-sm-6 col-lg-3">
-	    		<div class="panel panel-default rounded">
-				  <div class="panel-body text-center m-4 p-4">
-				    <img src="img/path-91.png" srcset="img/path-91@2x.png 2x, img/path-91@3x.png 3x" />
-				    <strong class="pt-4 pb-4">Feature Rich</strong>
-				    <p>Payment types, cost savings and control features, customer engagement, and industry specific options.</p>
-				  </div>
-				</div>
-	    	</div>
-	    	<div class="col-sm-6 col-lg-3">
-	    		<div class="panel panel-default rounded	">
-				  <div class="panel-body text-center m-4 p-4">
-				    <img src="img/group-25.png" srcset="img/group-25@2x.png 2x, img/group-25@3x.png 3x" />
-				    <strong class="pt-4 pb-4">Future Proof</strong>
-				    <p>Updates delivered seamlessly via the cloud to every device and channel.</p>
-				  </div>
-				</div>
-	    	</div>
-    	</div>
-    	<div class="row">
-    		<div class="col-sm-12 text-center pt-4 pb-4">
-    			<button class="mt-4 mb-4 btn btn-default hvr-grow get-started">Get Started Today</button>
-    		</div>
-    	</div>
-    </div><!-- /.container -->
+	        <div class="col-md-3 col-xs-6 col-xss-12">
+	            <div class="member text-center">
+	                <div class="member-top">
+	                    <figure>
+	                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Member Name">
+	                    </figure>
+	                    <div class="social-icons">
+	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+	                    </div><!-- End .social-icons -->
+	                </div><!-- End .member-top -->
+	                <h3 class="member-title"><a href="#">John Doe</a> <small>(Co-founder)</small></h3>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+	            </div><!-- End .member -->
+	        </div><!-- End .col-md-3 -->
+	    
+	        <div class="col-md-3 col-xs-6 col-xss-12">
+	            <div class="member text-center">
+	                <div class="member-top">
+	                    <figure>
+	                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Member Name">
+	                    </figure>
+	                    <div class="social-icons">
+	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+	                        <a href="#" class="social-icon" title="Tumblr"><i class="fa fa-tumblr"></i></a>
+	                        <a href="#" class="social-icon" title="Flickr"><i class="fa fa-flickr"></i></a>
+	                    </div><!-- End .social-icons -->
+	                </div><!-- End .member-top -->
+	                <h3 class="member-title"><a href="#">John Doe</a> <small>(Developer)</small></h3>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+	            </div><!-- End .member -->
+	        </div><!-- End .col-md-3 -->
+	    
+	        <div class="clearfix visible-xs visible-sm"></div><!-- clearfix -->
+	    
+	        <div class="col-md-3 col-xs-6 col-xss-12">
+	            <div class="member text-center">
+	                <div class="member-top">
+	                    <figure>
+	                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Member Name">
+	                    </figure>
+	                    <div class="social-icons">
+	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+	                        <a href="#" class="social-icon" title="Tumblr"><i class="fa fa-tumblr"></i></a>
+	                    </div><!-- End .social-icons -->
+	                </div><!-- End .member-top -->
+	                <h3 class="member-title"><a href="#">Jane Doe</a> <small>(Developer)</small></h3>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+	            </div><!-- End .member -->
+	        </div><!-- End .col-md-3 -->
+	    
+	        <div class="col-md-3 col-xs-6 col-xss-12">
+	            <div class="member text-center">
+	                <div class="member-top">
+	                    <figure>
+	                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Member Name">
+	                    </figure>
+	                    <div class="social-icons">
+	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+	                        <a href="#" class="social-icon" title="Flickr"><i class="fa fa-flickr"></i></a>
+	                    </div><!-- End .social-icons -->
+	                </div><!-- End .member-top -->
+	                <h3 class="member-title"><a href="#">John Doe</a> <small>(Developer)</small></h3>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+	            </div><!-- End .member -->
+	        </div><!-- End .col-md-3 -->
+	    </div>
+	</div> 
 
     <!-- Footer Menu Row -->
 	<?php include ("inc/footer-menu.php"); ?>

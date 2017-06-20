@@ -36,7 +36,12 @@ h1 {
 	color: #828282;
 	color: var(--warm-grey);
 }
-
+h1.blue {
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: bold;
+    color: #3f5989;
+    text-shadow: 1px 1px #ebebeb;
+}
 h2 {
 	font-family: var(--header-font-family);
 	font-size: 2em;
@@ -125,8 +130,11 @@ p.header strong {
 	padding: 0;
 	height: 80px;
 }
+.navbar-brand {
+	padding-top: .5rem;
+}
 .header-scroll .navbar-brand {
-padding-top: 0;
+	padding-top: 5px;
 }
 .navbar-nav {
     display: flex;
@@ -136,8 +144,11 @@ padding-top: 0;
 }
 .navbar-nav .nav-item {
 	padding: 0px;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     border-bottom: 4px solid transparent;
+}
+.header-scroll .navbar-nav .nav-item {
+	margin-bottom: -1px !important;
 }
 .navbar-nav .nav-link {
 	font-size: 16px;
@@ -151,7 +162,7 @@ padding-top: 0;
 	height: 100%;
     padding: 0 15px;
     height: 80px;
-    padding-top: 25px;
+    padding-top: 30px; 
     min-width: 90px;
     text-align: center;
 }
@@ -159,7 +170,7 @@ padding-top: 0;
 .navbar-nav .nav-item:hover {
 	border-bottom: 4px solid #76b197;
     background-color: rgba(255,255,255,.5);
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     -webkit-transition: linear .3s; /* Safari */
     transition: linear .3s;
 }
@@ -330,6 +341,10 @@ button, input, optgroup, select, textarea {
     width: 100%;
 }
 
+.contact-us input,
+.contact-us textarea {
+	color: #000;
+}
 .footer-top {
 	
 }
@@ -587,6 +602,8 @@ button.get-started {
 }
 
 
+
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
@@ -631,6 +648,8 @@ button.get-started {
 	.solutions {
 		background: #81dca8;
 	}
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -647,6 +666,8 @@ button.get-started {
 	.navbar-inverse .navbar-toggler {
 	    top: 22px;
 	}
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */

@@ -11,14 +11,14 @@
 	<?php include ("inc/header.php"); ?>
 
 </head>
-<body class="contact">
+<body class="contact-us">
 
 	<!-- Page Menu Row -->
 	<?php include ("inc/page-menu.php"); ?>
     <!-- /.container -->
 
     <!-- Column Row -->
-    <div class="container">
+    <div class="container" style="margin-top: 150px;">
     	<div class="row">
     		<div class="col-sm-12 text-center pt-4 pb-4">
     			<img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo img-fluid" />
@@ -61,16 +61,6 @@
     		</div>
     	</div>
     </div><!-- /.container -->
-
-    <!-- Footer Top Geometric Patter Row -->
-    <div class="container-fluid footer-top">
-    	<div class="row">
-    		<div class="col-sm-12">
-
-    		</div>
-    	</div>
-    </div><!-- /.container -->
-
 
     <!-- Footer Menu Row -->
 	<?php include ("inc/footer-menu.php"); ?>
