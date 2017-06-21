@@ -6,7 +6,9 @@
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--build:css css/styles.min.css-->
 	<link rel="stylesheet" href="css/styles.css" />
 	<link rel="stylesheet" href="css/hover.css" />
 	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/menu.css" />
+	<!--endbuild-->

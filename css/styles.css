@@ -651,11 +651,12 @@ button.get-started {
 		display: none;
 	}
 	.navbar-collapse {
-		background-color: rgba(255,255,255,.9);
-		top: 18px;
+		background-color: rgba(255,255,255,1);
+		top: 17px;
 		border: 1px solid #000;
 		border-top-width: 0px;
-		box-shadow: 0 1px 5px rgba(0,0,0,.9);
+		box-shadow: 0 5px 5px rgba(0,0,0,.9);
+		margin-left: 2rem;
 	}
 	.header-scroll .navbar-collapse {
 		top: -18px;
@@ -663,8 +664,12 @@ button.get-started {
 	.solutions {
 		background: #81dca8;
 	}
-
-
+	.navbar-nav .nav-item {
+		min-width: 100%;
+	}
+	.header-scroll .navbar-collapse {
+		top: -2px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -687,7 +692,10 @@ button.get-started {
 	.navbar-inverse .navbar-toggler {
 	    top: 22px;
 	}
-
+	.navbar-collapse {
+		top: 5px;
+		margin-left: 0rem;
+	}
 
 }
 
@@ -706,6 +714,10 @@ button.get-started {
     	background-position: 500%;
     	*/
 	}
+	.navbar-collapse {
+		top: 0px;
+	}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -727,8 +739,8 @@ button.get-started {
 		border-top-width: 0px;
 		box-shadow: 0 0px 0px rgba(0,0,0,.9);
 	}
-	.header-scroll .navbar-collapse {
-		top: -3px;
+	.navbar-nav .nav-item {
+		min-width: 90px;
 	}
 }
 

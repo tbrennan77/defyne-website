@@ -9,7 +9,7 @@
 	    	<div class="col-6 col-sm-2 hidden-lg-up">
 		    	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">☰</button>
 		    </div>
-		    <div class="collapse navbar-collapse col-lg-8 col-sm-12 col-12" id="navbarCollapse">
+		    <div class="collapse navbar-collapse col-lg-8 col-sm-12 col-xs-12 pl-0 pr-0 ml-xs-4" id="navbarCollapse">
 		        <ul class="navbar-nav">
 		          <li class="nav-item active">
 		            <a class="nav-link hvr-pulse" href="/">Home <span class="sr-only">(current)</span></a>
