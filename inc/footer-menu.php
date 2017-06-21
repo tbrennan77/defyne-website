@@ -5,7 +5,7 @@
     				<div class="col-sm-12 col-lg-4 footer-left pr-4 mb-4">
 		    			<img src="img/group-48.png" srcset="img/group-48@2x.png 2x, img/group-48@3x.png 3x" class="img-fluid mb-4" />
 		    			<h5>&copy;2017 Defyne Payments, LLC.<br />
-							1 Federal Street Boston, MA 02110 USA | 1 (844) 278-7115</h5>
+							1165 Sanctuary Parkway, Alpharetta GA 30009 USA<br />+1 (800) 711-5769</h5>
 		    		</div>
 		    		<div class="col-sm-12 col-lg-8">
 		    			<div class="row">

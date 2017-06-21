@@ -213,7 +213,7 @@
 		    	<div class="row pt-4 pb-4">
 		    		<div class="col-sm-8 text-center mx-auto">
 		    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
-		    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:8660000000">(866) 000-0000</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
+		    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
 		    		</div>
 		    		<div class="col-sm-8 text-center pb-4 mx-auto">
 		    			<form>
