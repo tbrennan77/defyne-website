@@ -14,18 +14,20 @@
 		          <li class="nav-item active">
 		            <a class="nav-link hvr-pulse" href="/">Home <span class="sr-only">(current)</span></a>
 		          </li>
-		            <a class="nav-link hvr-pulse" href="/services">Services</a>
 		          <li class="nav-item">
 		            <a class="nav-link hvr-pulse" href="/about">About</a>
 		          </li>
 		          <li class="nav-item">
 		            <a class="nav-link hvr-pulse" href="/partners">Partners</a>
 		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link hvr-pulse" href="/contact">Contact</a>
+		          <li class="nav-item dropdown">
+		            <a class="nav-link hvr-pulse dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#" id="navbarDropdownMenuLink">Services</a>
+		            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				      <a class="dropdown-item" href="#">Products</a>
+				    </div>
 		          </li>
 		          <li class="nav-item">
-		            <a class="nav-link hvr-pulse" href="/services">Services</a>
+		            <a class="nav-link hvr-pulse" href="/contact">Contact</a>
 		          </li>
 		        </ul>
 		    </div>

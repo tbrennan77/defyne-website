@@ -71,6 +71,7 @@ if ( typeof define === 'function' && define.amd ) {
 
 
 $(document).ready(function(){
+ /* 
     $(".dropdown").hover(            
         function() {
             $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
@@ -81,7 +82,12 @@ $(document).ready(function(){
             $(this).toggleClass('open');       
         }
     );
-
+  */
+    $('ul.nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
 
 
         $(window).on("scroll", function() {
@@ -186,4 +192,8 @@ jQuery(document).ready(function () {
     jQuery(".text-container4").toggleClass("slide-left-0");
     jQuery(".text-container5").toggleClass("slide-left-1");
   });
+
+
+
 });
+
