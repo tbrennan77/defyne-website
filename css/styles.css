@@ -125,6 +125,9 @@ p.header strong {
 .font-alt li {
 	color: #fff;
 }
+.seagreen {
+	color: #76b197 !important;
+}
 /* Navbar Header */
 .navbar {
 	padding: 0;
@@ -279,7 +282,7 @@ button, input, optgroup, select, textarea {
 .btn-default,
 .btn-alt:hover {
 	border-radius: 4px;
-	background: #5eb050;
+	background: #81dca8;
 	color: #fff;
 	padding: 15px 25px;
 }
@@ -334,7 +337,9 @@ button, input, optgroup, select, textarea {
 	color: #3f5989;
 	color: var(--denim);
 }
-
+.contact {
+	margin-top: 100px;
+}
 .contact input,
 .contact textarea {
 	background-color: rgba(255, 255, 255, .2);
@@ -349,7 +354,18 @@ button, input, optgroup, select, textarea {
 
 .contact-us input,
 .contact-us textarea {
-	color: #000;
+	
+}
+.contact-section {
+	    /* The image used */
+    background: #fff url(../img/defyne_atlanta_background.jpg);
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer-top {
 	
@@ -358,8 +374,8 @@ button, input, optgroup, select, textarea {
     /* The image used */
     background: #fff url(../img/defyne_atlanta_background.jpg);
 
-    /* Set a specific height */
-    height: 950px; 
+    /* Set a specific height 
+    height: 950px; */
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -497,23 +513,28 @@ button, input, optgroup, select, textarea {
 	border: 1px solid #3a3a3a;
 }
 
-
-::-webkit-input-placeholder {
-	color: white;
+.form-control::-webkit-input-placeholder, 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
 }
-:-moz-placeholder {
-	color: white;
-	opacity: 1;
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
 }
-::-moz-placeholder {
-	color: white;
-	opacity: 1;
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
 }
-:-ms-input-placeholder {
-	color: white;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
 }
-
-
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+.form-control::placeholder {
+	color:    #fff;
+    opacity:  1;
+}
 
 #input input:focus {
 	outline: none
@@ -630,7 +651,6 @@ button.get-started {
     	margin-right: 0;
 	}
 	.navbar-brand img {
-	    max-width: 150px;
 	    padding-left: 20px;
 	    margin-top: 10px;
 	}
@@ -679,9 +699,9 @@ button.get-started {
     	margin-right: auto;
 	}
 	.navbar-brand img {
-	    max-width: 200px;
+	    max-width: 260px;
 	    padding-left: 0px;
-	    margin-top: 0px;
+	    margin-top: 3px;
 	}
 	.navbar-nav .nav-link {
 	
@@ -693,7 +713,7 @@ button.get-started {
 	    top: 22px;
 	}
 	.navbar-collapse {
-		top: 5px;
+		top: 2px;
 		margin-left: 0rem;
 	}
 
@@ -702,7 +722,7 @@ button.get-started {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 	.navbar-brand img {
-		padding-top: 5px; 
+		padding-top: 0px; 
 	}
 	#input input {
 		width: 400px;
@@ -715,13 +735,16 @@ button.get-started {
     	*/
 	}
 	.navbar-collapse {
-		top: 0px;
+		top: 2px;
 	}
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	.navbar-brand img {
+		padding-top: 5px; 
+	}
 	.home-row {
 	    margin-top: 50px;
 	    min-height: 500px;

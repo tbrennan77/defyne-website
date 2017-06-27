@@ -41,15 +41,13 @@ gulp.task('watch', ['browserSync', 'sass'], function(){
 // BrowserSync
 gulp.task('browserSync', function() {
   browserSync.init({
-    server: {
-      baseDir: 'app'
-    },
-  })
+        proxy: "http://localhost:8888/app/  "
+    });
 })
 
 // UseRef 
 gulp.task('useref', function(){
-  return gulp.src('app/*.html')
+  return gulp.src('app/*.php')
     .pipe(useref())
     // Minifies only if it's a JavaScript file
     .pipe(gulpIf('*.js', uglify()))

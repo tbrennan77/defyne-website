@@ -29,8 +29,8 @@
     <div class="container home-row">
       <div class="row h-100 align-items-center">
       	<div class="col-xs-12 col-lg-12 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800">
-        	<h2 class="title">Re-Defining Payments</h2>
-			<p class="header">Taking a new approach with leading edge technology and best in class service with our clients.<br />Simple, Smooth and Transparent our promise to our customers.<br />The way it should be done.</p>
+        	<h2 class="title">Redefining Payments</h2>
+			<p class="header">‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.<br />Simple, smooth and transparent. Our promise to our customers.<br /><span class="seagreen">The way it should be done</span>.</p>
 			<p>
 				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
 				<a href="/products"><button class="btn btn-alt">Learn More</button></a>
@@ -166,14 +166,12 @@
 	    				<p>We offer the following solutions in addition to connectivity with virtually any third-party technology platform or gateway.</p>
 
 	    				<ul>
-	    					<li>Defyne POS and Mobile</li>
 	    					<li>Poynt POS Terminal options</li>
 	    					<li>Clover Mini and Mobile</li>
 	    					<li>Aldelo POS</li>
 	    					<li>Aptito POS</li>
-	    					<li>MX virtual terminal & POS</li>
-	    					<li>Sage Software</li>
 	    				</ul>
+	    				<p><strong>We service all industries and businesses.</strong></p>
 						<button class="mt-4 mb-4 btn btn-alt hvr-grow ">Learn More</button>
     				</div>
     				<div class="col-sm-0 col-lg-7">
@@ -236,6 +234,11 @@
 						  <div class="form-group">
 						  	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						     <button type="submit" class="btn btn-default btn-contact hvr-grow">Let's Talk</button>
+						  </div>
+						  <div class="form-group">
+						  	<div class="col-12 pb-4 mx-auto">
+							    
+							  </div>
 						  </div>
 						</form>
 		    		</div>

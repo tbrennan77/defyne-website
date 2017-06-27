@@ -18,49 +18,45 @@
     <!-- /.container -->
 
     <!-- Column Row -->
-    <div class="container" style="margin-top: 150px;">
+    <div class="container-fluid contact-section" data-aos="fade-down">
     	<div class="row">
-    		<div class="col-sm-12 text-center pt-4 pb-4">
-    			<img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo img-fluid" />
-    			
-    			<h2 class="pt-4 pb-4 blue-h2">Fill out this form and one of our payment experts will contact you for a free consultation.</h2>
-    			<p class="grey-text">Find out how we can help you future-proof your payments</p>
-    		</div>
+    	    <!-- Contact Row -->
+		    <div class="container contact text-center">
+		    	<div class="row pt-4 pb-4">
+			    	<div class="col-sm-12 text-center mx-auto">
+			    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
+			    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
+			    	</div>
+		    		<div class="col-sm-12">
+		    			<form>
+						  <div class="form-group">
+						    <input class="form-control" type="text" placeholder="Name" id="name" />
+						  </div>
+						  <div class="form-group">
+						    <input class="form-control" type="text" placeholder="Company Name" id="company" />
+						  </div>
+						  <div class="form-group row">
+							  <div class="col-6">
+							     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
+							  </div>
+							  <div class="col-6">
+							    <input class="form-control" type="tel" placeholder="Phone" id="phone">
+							  </div>
+						  </div>
+						  <div class="form-group">
+						    <textarea class="form-control" id="comments" rows="5" placeholder="Tell Us About Your Needs"></textarea>
+						  </div>
+						  <div class="form-group">
+						     <button type="submit" class="btn btn-default" name="submit" id="submit">Let's Talk</button>
+						  </div>
+						</form>
+		    		</div>
+		    	</div>
+		    </div><!-- /.container -->
     	</div>
     </div><!-- /.container -->
 
-    <!-- Contact Row -->
-    <div class="container contact text-center">
-    	<div class="row pt-4 pb-4">
-    		<div class="col-sm-12">
-    			<form>
-				  <div class="form-group">
-				    <input class="form-control" type="text" placeholder="Name" id="example-text-input">
-				  </div>
-				  <div class="form-group">
-				    <input class="form-control" type="text" placeholder="Company Name" id="example-text-input">
-				  </div>
-				  <div class="form-group row">
-					  <div class="col-6">
-					     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-					  </div>
-					  <div class="col-6">
-					    <input class="form-control" type="tel" placeholder="Phone" id="example-text-input">
-					  </div>
-				  </div>
-				  <div class="form-group">
-				    <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Tell Us About Your Needs"></textarea>
-				  </div>
-				  <div class="form-group">
-				     <button type="submit" class="btn btn-default">Let's Talk</button>
-				  </div>
-				  <div class="form-group">
-				  	<p class="pt-4 pb-4">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
-				  </div>
-				</form>
-    		</div>
-    	</div>
-    </div><!-- /.container -->
+
 
     <!-- Footer Menu Row -->
 	<?php include ("inc/footer-menu.php"); ?>
