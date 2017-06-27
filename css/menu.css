@@ -41,9 +41,15 @@
   display: block;
 }
 .dropdown-menu {
-	box-shadow: 0 1px 5px rgba(0,0,0,.9);
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
     border: 1px solid rgba(0,0,0,.15);
     border-top-width: 0px;
     border-radius: 0rem;
     margin-top: 5px;
+    margin: 0;
+    padding: 0;
+    top: 106%;
+}
+.dropdown-item {
+	padding: 10px 1.5rem;
 }
