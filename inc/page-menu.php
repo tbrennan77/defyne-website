@@ -14,8 +14,12 @@
 		          <li class="nav-item active">
 		            <a class="nav-link hvr-pulse" href="/">Home <span class="sr-only">(current)</span></a>
 		          </li>
+		            <a class="nav-link hvr-pulse" href="/services">Services</a>
 		          <li class="nav-item">
 		            <a class="nav-link hvr-pulse" href="/about">About</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link hvr-pulse" href="/partners">Partners</a>
 		          </li>
 		          <li class="nav-item">
 		            <a class="nav-link hvr-pulse" href="/contact">Contact</a>
