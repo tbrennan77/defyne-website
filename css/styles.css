@@ -388,7 +388,9 @@ button, input, optgroup, select, textarea {
 	background-color: var(--white-two);
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
-
+.footer a {
+	color: #828282;
+}
 .footer p {
 	line-height: 20px;
 }
