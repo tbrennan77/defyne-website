@@ -19,9 +19,9 @@
 
     <!-- Full Screen BG Video -->
 	<div class="fullscreen-bg">
-	    <video muted autoplay poster="video/Very-Open-Space.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
+	    <video muted autoplay poster="video/Adobe_World.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
 	        <source src="video/Adobe_World.mp4" type="video/mp4">
-	        <source src="video/Very-Open-Space.webm" type="video/webm">
+	        <source src="video/Adobe_World.webm" type="video/webm">
 	    </video>
 	</div>
 

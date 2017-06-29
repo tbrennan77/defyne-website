@@ -27,27 +27,28 @@
 			    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
 			    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
 			    	</div>
+			    	<div class="col-sm-12" id="form-messages"></div>
 		    		<div class="col-sm-12">
-		    			<form>
+		    			<form id="ajax-contact" method="post" action="script/mailer.php">
 						  <div class="form-group">
-						    <input class="form-control" type="text" placeholder="Name" id="name" />
+						    <input class="form-control" type="text" placeholder="Name" id="name" name="name" required />
 						  </div>
 						  <div class="form-group">
 						    <input class="form-control" type="text" placeholder="Company Name" id="company" />
 						  </div>
 						  <div class="form-group row">
 							  <div class="col-6">
-							     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" />
+							     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email" required />
 							  </div>
 							  <div class="col-6">
 							    <input class="form-control" type="tel" placeholder="Phone" id="phone">
 							  </div>
 						  </div>
 						  <div class="form-group">
-						    <textarea class="form-control" id="comments" rows="5" placeholder="Tell Us About Your Needs"></textarea>
+						    <textarea class="form-control" id="comments" name="comments" rows="5" placeholder="Tell Us About Your Needs" required></textarea>
 						  </div>
 						  <div class="form-group">
-						     <button type="submit" class="btn btn-default" name="submit" id="submit">Let's Talk</button>
+						     <button type="submit" class="btn btn-default" >Let's Talk</button>
 						  </div>
 						</form>
 		    		</div>
