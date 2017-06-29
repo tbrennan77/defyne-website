@@ -58,6 +58,14 @@ h2.title {
     line-height: 1.3em;
     text-shadow: 1px 1px #26385c;
 }
+h2.header {
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #ffffff;
+    line-height: 1.3em;
+    text-shadow: 1px 1px #26385c;
+}
 h2.blue {
     font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
     font-weight: bold;
@@ -100,7 +108,9 @@ p.header {
 	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
 	line-height: 1.6em;
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 30px;
+	line-height: 36px;
+	text-shadow: 1px 1px #000;
 	color: #fff;
 }
 strong {
@@ -588,7 +598,7 @@ button.get-started {
 	text-align: center;
 	color: #696969;
 	color: var(--brownish-grey);
-	line-height: 28px;
+	line-height: 32px;
 }
 .lead {
 	color: #fff;

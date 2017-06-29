@@ -48,27 +48,10 @@
 	    <div class="row">
 	    	<div class="col-xss-12 col-lg-12 text-center blue pt-4">
 	    		<h1 class="blue">Our Management Team</h1>
-	    		<p class="grey-text pb-4">Our Management team was carefully crafted to bring significant payments know how, and our technology with free thinking minds that create new solutions by keeping our customers and their needs first. Our team’s track record of success is unparalleled.</p>
+	    		<p class="grey-text pb-4">Our Management team was carefully crafted to bring significant payments know how with free thinking minds that create new solutions by keeping our customers and their needs first. Our team’s track record of success is unparalleled.</p>
 	    	</div>
-	        <div class="col-md-4 col-xs-6 col-xss-12">
-	            <div class="member text-center">
-	                <div class="member-top">
-	                    <figure>
-	                        <img src="img/steve_palazzo_chief_executive_officer.png" alt="Stephen Palazzo CEO">
-	                    </figure>
-	                    <div class="social-icons">
-	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
-	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
-	                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
-	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-	                    </div><!-- End .social-icons -->
-	                </div><!-- End .member-top -->
-	                <h3 class="member-title"><a href="#">Stephen Palazzo</a> <small>(Co-founder)</small></h3>
-	                <p>Stephen Palazzo has been a critical management team member for many payment industry providers over the past 30 years.  Mr. Palazzo has built industry leading operational infrastructure in roles at some of the worlds largest acquirers. In addition to his operations expertise and experience, Stephen has also been tasked with leading important growth and technology orientated programs within First Data, Chase Bank, Global Payments, Elavon, WorldPay, and most recently Sage Payments. As the leader of Sales within the ISO and Agent channel of Sage he pushed forth several integrated technology initiatives into the channel. He has received a Bachelor of Science degree in business from The University of the State of New York.  As a founder of Defyne Payments, Steve is looking to bring a new and fresh take on the operational environment to lead change and revolution within the electronics payments space.</p>
-	            </div><!-- End .member -->
-	        </div><!-- End .col-md-3 -->
-	    
-	        <div class="col-md-4 col-xs-6 col-xss-12">
+	    	
+	    	<div class="col-md-4 col-xs-6 col-xss-12">
 	            <div class="member text-center">
 	                <div class="member-top">
 	                    <figure>
@@ -82,8 +65,26 @@
 	                        <a href="#" class="social-icon" title="Flickr"><i class="fa fa-flickr"></i></a>
 	                    </div><!-- End .social-icons -->
 	                </div><!-- End .member-top -->
-	                <h3 class="member-title"><a href="#">Duayne Haskett</a> <small>Developer</small></h3>
+	                <h3 class="member-title"><a href="#">Duayne Haskett</a> <small>Chief Executive Officer</small></h3>
 	                <p>Duayne Haskett has been a driving force in merchant acquiring since leaving the issuing side of the business in 2001. After working large financial institutions such as Washington Mutual and Wells Fargo early in his career, Duayne entered the Merchant Acquiring arena. Duayne served as a leader in Credit Underwriting and Operations for Sage Payments (formerly Verus Card Services) through September 2005. Mr. Haskett then departed to become a founding member of the management team at Priority Payment Systems (Priority). He then proceeded to manage and develop one of the merchant processing industries premier ISO/Agent and VAR/SAS channels for 11 years. Upon his departure from Priority, Duayne determined to bring back a customer centric infrastructure to the new era of payment technology.</p>
+	            </div><!-- End .member -->
+	        </div><!-- End .col-md-3 -->
+
+	        <div class="col-md-4 col-xs-6 col-xss-12">
+	            <div class="member text-center">
+	                <div class="member-top">
+	                    <figure>
+	                        <img src="img/steve_palazzo_chief_executive_officer.png" alt="Stephen Palazzo CEO">
+	                    </figure>
+	                    <div class="social-icons">
+	                        <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+	                        <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+	                    </div><!-- End .social-icons -->
+	                </div><!-- End .member-top -->
+	                <h3 class="member-title"><a href="#">Stephen Palazzo</a> <small>Chief Operating Officer</small></h3>
+	                <p>Stephen Palazzo has been a critical management team member for many payment industry providers over the past 30 years.  Mr. Palazzo has built industry leading operational infrastructure in roles at some of the worlds largest acquirers. In addition to his operations expertise and experience, Stephen has also been tasked with leading important growth and technology orientated programs within First Data, Chase Bank, Global Payments, Elavon, WorldPay, and most recently Sage Payments. As the leader of Sales within the ISO and Agent channel of Sage he pushed forth several integrated technology initiatives into the channel. He has received a Bachelor of Science degree in business from The University of the State of New York.  As a founder of Defyne Payments, Steve is looking to bring a new and fresh take on the operational environment to lead change and revolution within the electronics payments space.</p>
 	            </div><!-- End .member -->
 	        </div><!-- End .col-md-3 -->
 	    

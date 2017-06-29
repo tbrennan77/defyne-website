@@ -19,8 +19,8 @@
 
     <!-- Full Screen BG Video -->
 	<div class="fullscreen-bg">
-	    <video loop muted autoplay poster="video/Very-Open-Space.jpg" class="fullscreen-bg__video" src="video/Very-Open-Space.mp4">
-	        <source src="video/Very-Open-Space.mp4" type="video/mp4">
+	    <video muted autoplay poster="video/Very-Open-Space.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
+	        <source src="video/Adobe_World.mp4" type="video/mp4">
 	        <source src="video/Very-Open-Space.webm" type="video/webm">
 	    </video>
 	</div>
@@ -29,7 +29,7 @@
     <div class="container home-row">
       <div class="row h-100 align-items-center">
       	<div class="col-xs-12 col-lg-12 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800">
-        	<h2 class="title">Redefining Payments</h2>
+        	<h2 class="header">Redefining Payments</h2>
 			<p class="header">‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.<br />Simple, smooth and transparent. Our promise to our customers.<br /><span class="seagreen">The way it should be done</span>.</p>
 			<p>
 				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
