@@ -24,7 +24,7 @@
 	  	<div class="row">
 	  		<div class="col-sm-12 col-lg-6 p-4 home-hero">
                 <h2 class="header">Defyne Products</h2>
-			    <p class="lead"><span>Put the best of payments to work for you with one powerful platform</span><br /><span>It’s Defying & Defining</span></p>
+			    <p class="lead"><span>Put the best of payments to work</span><span> for you with one powerful platform</span><br /><span>It’s Defying & Defining</span></p>
 			</div>
 			<div class="hidden-md-down col-lg-6 p-4">
 				
