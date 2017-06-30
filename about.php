@@ -11,6 +11,7 @@
     <?php include ("inc/header.php"); ?>
 
     <link rel="stylesheet" href="css/about.css" />
+
 </head>
 <body class="about">
 
@@ -105,10 +106,70 @@
 	    </div>
 	</div> 
 
+	<!-- Map Container -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="map-canvas"></div>
+
     <!-- Footer Menu Row -->
 	<?php include ("inc/footer-menu.php"); ?>
 
     <!-- Footer Small Print Row -->
     <?php include ("inc/footer.php"); ?>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAopcy5lD5GZUX1X0zGIdiOdsGYStvoyVk"></script>
+    <script>
+		$(document).ready(function() {
+
+		var map;
+		var location = new google.maps.LatLng(34.3788845, -84.0114542);
+
+		var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: location,
+            zoom: 8,
+            panControl: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+		var markerImage = 'img/marker.png';
+
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            icon: markerImage
+        });
+
+        var contentString = '<div class="info-window">' +
+                '<h3>Info Window Content</h3>' +
+                '<div class="info-content">' +
+                '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>' +
+                '</div>' +
+                '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString,
+            maxWidth: 400
+        });
+
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
+        });
+
+		var styles = [ { "featureType": "administrative.land_parcel", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "landscape.man_made", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "poi", "elementType": "labels", "stylers": [ { "visibility": "off" } ] }, { "featureType": "road", "elementType": "labels", "stylers": [ { "visibility": "simplified" }, { "lightness": 20 } ] }, { "featureType": "road.highway", "elementType": "geometry", "stylers": [ { "hue": "#f49935" } ] }, { "featureType": "road.highway", "elementType": "labels", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [ { "hue": "#fad959" } ] }, { "featureType": "road.arterial", "elementType": "labels", "stylers": [ { "visibility": "off" } ] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "road.local", "elementType": "labels", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "transit", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "water", "elementType": "all", "stylers": [ { "hue": "#a1cdfc" }, { "saturation": 30 }, { "lightness": 49 } ] } ];
+
+		map.set('styles', styles);
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+		});
+    </script>
 
 </body>
