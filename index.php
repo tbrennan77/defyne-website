@@ -29,7 +29,7 @@
     <!-- Main Content Area -->
     <div class="container home-row">
       <div class="row h-100 align-items-center">
-      	<div class="col-xs-12 col-lg-12 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800">
+      	<div class="col-xs-12 col-lg-12 mx-auto text-center home-hero" data-aos="zoom-in" data-aos-duration="800">
         	<h2 class="header">Redefining Payments</h2>
 			<p class="header">‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.<br />Simple, smooth and transparent. Our promise to our customers.<br /><span class="seagreen">The way it should be done</span>.</p>
 			<p>
@@ -66,25 +66,29 @@
         <div class="carousel-inner d-flex h-100" role="listbox">
             <div class="carousel-item active justify-content-center align-self-center">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image: url('img/group-94-2.png');"></div>
+                <div class="fill" style="background-image: url('img/slider_1.jpg');"></div>
                 <div class="carousel-caption" data-aos="fade-up">
-                	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
+                	 <img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
                      <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
                      <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
+                <div class="fill" style="background-image:url('img/slider_2.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2></h2>
+                	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
+                    <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                    <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
+                <div class="fill" style="background-image:url('img/slider_3.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2></h2>
+                	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
+                    <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                    <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
         </div>
@@ -214,23 +218,24 @@
 		    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
 		    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
 		    		</div>
+		    		<div class="col-sm-12" id="form-messages"></div>
 		    		<div class="col-sm-8 text-center pb-4 mx-auto">
-		    			<form>
+		    			<form id="ajax-contact" method="post" action="script/mailer.php">
 						  <div class="form-group pt-4">
-						    <input class="" type="email" placeholder="Enter email" />
+						    <input class="" type="email" placeholder="Enter email" name="email" id="email" required />
 						  </div>
 						  <div class="form-group row">
 							  <div class="col-12">
-							    <input class="" type="text" placeholder="Name" />
+							    <input class="" type="text" placeholder="Name" id="name" name="name" required  />
 							  </div>
 						  </div>
 						  <div class="form-group row">
 							  <div class="col-12">
-							    <input class="" type="tel" placeholder="Phone" />
+							    <input class="" type="tel" placeholder="Phone" id="phone" name="phone" />
 							  </div>
 						  </div>
 						  <div class="form-group">
-						    <textarea class="" id="exampleTextarea" rows="5" placeholder="Desciption"></textarea>
+						    <textarea class="" id="exampleTextarea" rows="5" placeholder="Desciption" id="comments" name="comments" ></textarea>
 						  </div>
 						  <div class="form-group">
 						  	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
