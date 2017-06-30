@@ -10,6 +10,7 @@
 
 	<?php include ("inc/header.php"); ?>
 
+	<script src='https://www.google.com/recaptcha/api.js'></script><!-- Page Specific -->
 </head>
 <body class="contact-us">
 
@@ -46,6 +47,9 @@
 						  </div>
 						  <div class="form-group">
 						    <textarea class="form-control" id="comments" name="comments" rows="5" placeholder="Tell Us About Your Needs" required></textarea>
+						  </div>
+						  <div class="form-group">
+						     <div class="g-recaptcha" data-sitekey="6LeKXCcUAAAAACcDvb9-QfROQR6i-hl5ayDCpuOm"></div>
 						  </div>
 						  <div class="form-group">
 						     <button type="submit" class="btn btn-default" >Let's Talk</button>

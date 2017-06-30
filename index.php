@@ -19,6 +19,7 @@
 
     <!-- Full Screen BG Video -->
 	<div class="fullscreen-bg">
+		<div class="shading"></div>
 	    <video muted autoplay poster="video/Adobe_World.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
 	        <source src="video/Adobe_World.mp4" type="video/mp4">
 	        <source src="video/Adobe_World.webm" type="video/webm">

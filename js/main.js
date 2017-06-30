@@ -246,3 +246,21 @@ $(function() {
   });
 
 });
+
+
+/* About Us */
+  // About Page Bio Toggles
+  $( ".leadership.duayne" ).click(function() {
+    $( ".bio.duayne" ).slideToggle(800);
+    $( ".toggle-bio.duayne" ).toggleClass( "close" , 800);
+  });
+  $( ".leadership.stephen" ).click(function() {
+    $( ".bio.stephen" ).slideToggle(800);
+    $( ".toggle-bio.stephen" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.bryan" ).click(function() {
+    $( ".bio.bryan" ).slideToggle(800);
+    $( ".toggle-bio.bryan" ).toggleClass( "close", 800 );
+  });
+
+
