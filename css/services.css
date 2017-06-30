@@ -185,3 +185,108 @@ fill:#ff0000;
 background-color:rgba(247, 247, 247, 0.5);
 }
 
+
+.leadership {
+    width: 100%;
+    padding: 11px 0 0;
+}
+
+.leadership .leaderline {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 90px;
+    border-bottom: 1px #eeeeee solid;
+    cursor: pointer;
+}
+
+.leadership .leaderline img {
+    float: left;
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+.leadership .leaderline .exec {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    width: 300px;
+    float: left;
+}
+
+.leadership .leaderline .exec .exec-name {
+    font-weight: 300;
+    color: #ea1d76;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.leadership .leaderline .exec .exec-title {
+font-weight: 300;
+    color: #666666;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.leadership .leaderline .toggle-bio {
+    margin-top: 25px;
+    float: right;
+    clear: right;
+}
+
+.leadership .leaderline .toggle-bio img {
+    height: 18px;
+    width: 18px;
+}
+
+.leadership .leaderline .toggle-bio.mobile,
+.leadership .leaderline .toggle-bio.pos,
+.leadership .leaderline .toggle-bio.mcommerce,
+.leadership .leaderline .toggle-bio.ecommerce,
+.leadership .leaderline .toggle-bio.sales,
+.leadership .leaderline .toggle-bio.event,
+.leadership .leaderline .toggle-bio.emv,
+.leadership .leaderline .toggle-bio.gift,
+.leadership .leaderline .toggle-bio.loyalty,
+.leadership .leaderline .toggle-bio.poynt {
+    background-image: url(../img/About_Bio_Expand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 22px;
+}
+
+.leadership .leaderline .toggle-bio.mobile.close,
+.leadership .leaderline .toggle-bio.pos.close,
+.leadership .leaderline .toggle-bio.mcommerce.close,
+.leadership .leaderline .toggle-bio.ecommerce.close,
+.leadership .leaderline .toggle-bio.sales.close,
+.leadership .leaderline .toggle-bio.event.close,
+.leadership .leaderline .toggle-bio.emv.close,
+.leadership .leaderline .toggle-bio.gift.close,
+.leadership .leaderline .toggle-bio.loyalty.close,
+.leadership .leaderline .toggle-bio.poynt.close {
+    background-image: url(../img/About_Bio_Collapse.png);
+    height: 18px;
+    width: 18px;
+}
+
+.leadership .bio {
+  float: none;
+      clear: left;
+      position: relative;
+      display: none;
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 20px;
+    }
+
+.leadership .bio p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.leadership .bio h4 {
+  font-weight: 300;
+}
+
+

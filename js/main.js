@@ -264,3 +264,48 @@ $(function() {
   });
 
 
+
+/* Product Us */
+  // Product Page Bio Toggles
+  $( ".leadership.mobile" ).click(function() {
+    $( ".bio.mobile" ).slideToggle(800);
+    $( ".toggle-bio.mobile" ).toggleClass( "close" , 800);
+  });
+  $( ".leadership.pos" ).click(function() {
+    $( ".bio.pos" ).slideToggle(800);
+    $( ".toggle-bio.pos" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.mcommerce" ).click(function() {
+    $( ".bio.mcommerce" ).slideToggle(800);
+    $( ".toggle-bio.mcommerce" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.ecommerce" ).click(function() {
+    $( ".bio.ecommerce" ).slideToggle(800);
+    $( ".toggle-bio.ecommerce" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.sales" ).click(function() {
+    $( ".bio.sales" ).slideToggle(800);
+    $( ".toggle-bio.sales" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.event" ).click(function() {
+    $( ".bio.event" ).slideToggle(800);
+    $( ".toggle-bio.event" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.emv" ).click(function() {
+    $( ".bio.emv" ).slideToggle(800);
+    $( ".toggle-bio.emv" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.gift" ).click(function() {
+    $( ".bio.gift" ).slideToggle(800);
+    $( ".toggle-bio.gift" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.loyalty" ).click(function() {
+    $( ".bio.loyalty" ).slideToggle(800);
+    $( ".toggle-bio.loyalty" ).toggleClass( "close", 800 );
+  });
+  $( ".leadership.poynt" ).click(function() {
+    $( ".bio.poynt" ).slideToggle(800);
+    $( ".toggle-bio.poynt" ).toggleClass( "close", 800 );
+  });
+
+
