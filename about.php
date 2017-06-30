@@ -20,12 +20,12 @@
     <!-- /.container -->
 
     <!-- Jumbotron section -->
-	<div class="jumbotron jumbotron-fluid" style="background-image: url('img/group-94-2.png');">
+	<div class="jumbotron jumbotron-fluid" style="background: rgba(0,0,0,.4) url('img/headquarters.jpg') no-repeat; background-size: cover;">
 	  <div class="container">
 	  	<div class="row">
-	  		<div class="col-sm-12 col-lg-6 p-4">
-			    <p class="lead">Put the best of payments to work for you with one powerful platform<br /> - it’s Defying & Defining</p>
-			    <button class="btn btn-default hvr-grow">Let's Talk</button>
+	  		<div class="col-sm-12 col-lg-6 p-4 home-hero">
+	  			<h2 class="header">Defyne Payments</h2>
+			    <p class="lead"><span>Put the best of payments to work for you with one powerful platform.<br />It’s Defying & Defining</span></p>
 			</div>
 			<div class="hidden-md-down col-lg-6 p-4">
 				<img src="img/group-63.png" srcset="img/group-63@2x.png 2x, img/group-63@3x.png 3x" class="img-fluid" />
@@ -107,15 +107,30 @@
 	</div> 
 
 	<!-- Map Container -->
-	<div class="container-fluid">
+	<div class="container pt-4 mt-4">
 		<div class="row">
-			<div class="col-12">
-				<div id="map"></div>
+			<div class="col-4">
+				<h1 class="blue">Headquarters</h1>
+				<p>Defyne Payments, LLC.<br />1165 Sanctuary Parkway<br />Alpharetta, GA 30009 USA</p>
+				<p>
+					<a href="tel:18007115769">+1 (800) 711-5769</a><br />
+					<a href="mailto:info@defynepay.com">info@defynepay.com</a>
+				</p>
+				<p>
+					<a href="https://facebook.com">Like us on Facebook</a><br />
+					<a href="https://twitter.com">Follow us on Twitter</a>
+				</p>
 			</div>
+			<div class="col-8">
+				<div id="map-canvas"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 pb-4 mb-4">&nbsp</div>
 		</div>
 	</div>
 
-	<div id="map-canvas"></div>
+	
 
     <!-- Footer Menu Row -->
 	<?php include ("inc/footer-menu.php"); ?>
@@ -150,7 +165,7 @@
         var contentString = '<div class="info-window">' +
                 '<h3>Info Window Content</h3>' +
                 '<div class="info-content">' +
-                '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>' +
+                '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>' +
                 '</div>' +
                 '</div>';
 
@@ -163,7 +178,7 @@
             infowindow.open(map, marker);
         });
 
-		var styles = [ { "featureType": "administrative.land_parcel", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "landscape.man_made", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "poi", "elementType": "labels", "stylers": [ { "visibility": "off" } ] }, { "featureType": "road", "elementType": "labels", "stylers": [ { "visibility": "simplified" }, { "lightness": 20 } ] }, { "featureType": "road.highway", "elementType": "geometry", "stylers": [ { "hue": "#f49935" } ] }, { "featureType": "road.highway", "elementType": "labels", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [ { "hue": "#fad959" } ] }, { "featureType": "road.arterial", "elementType": "labels", "stylers": [ { "visibility": "off" } ] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "road.local", "elementType": "labels", "stylers": [ { "visibility": "simplified" } ] }, { "featureType": "transit", "elementType": "all", "stylers": [ { "visibility": "off" } ] }, { "featureType": "water", "elementType": "all", "stylers": [ { "hue": "#a1cdfc" }, { "saturation": 30 }, { "lightness": 49 } ] } ];
+		var styles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}];
 
 		map.set('styles', styles);
 

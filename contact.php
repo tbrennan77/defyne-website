@@ -42,7 +42,7 @@
 							     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email" required />
 							  </div>
 							  <div class="col-6">
-							    <input class="form-control" type="tel" placeholder="Phone" id="phone">
+							    <input class="form-control" type="tel" placeholder="Phone" id="phone" />
 							  </div>
 						  </div>
 						  <div class="form-group">

@@ -68,6 +68,15 @@ h2.header {
     letter-spacing: 0px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
+.home-hero h2.header {
+	font-weight: 700;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+}
+.home .home-hero h2.header {
+	font-weight: 700;
+	text-shadow: 0 5px 2px rgba(0, 0, 0, 0.8);
+}
+
 h2.blue {
     font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
     font-weight: bold;
@@ -114,6 +123,13 @@ p.header {
 	line-height: 36px;
 	text-shadow: 1px 1px #000;
 	color: #fff;
+}
+.home-hero p.header {
+	font-weight: 700;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+	text-transform: capitalize;
+	font-size: 32px;
+    line-height: 45px;
 }
 strong {
 	color: #3f5989;
@@ -249,6 +265,9 @@ img.logo {
 .home-row {
 	margin-top: 200px;
 }
+.home-hero {
+
+}
 .home-banner {
 	background-color: #3f5989;
 	background-color: var(--denim);
@@ -379,6 +398,12 @@ button, input, optgroup, select, textarea {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#contact .contact-map {
+    float: left;
+    width: 420px;
+    height: 640px;
+    border: 1px solid #eeeeee;
+}
 .footer-top {
 	
 }
@@ -474,7 +499,7 @@ button, input, optgroup, select, textarea {
 	top: 10px;
 }
 .carousel-caption {
-	
+	top: 130px;
 	z-index: 99;
 }
 
@@ -614,7 +639,16 @@ button.get-started {
 	line-height: 2.25rem;
 	text-shadow: 1px 1px 1px #000;
 }
-
+.lead span {
+    background-color: rgba(0,0,0,.5);
+    line-height: 3.25rem;
+    padding: 6px;
+}
+.home-hero p.header span:not(.seagreen) {
+    background-color: rgba(0,0,0,.33);
+    line-height: 4rem;
+    padding: 12px;
+}
 
 @-webkit-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
 @-moz-keyframes pulse {to {box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}

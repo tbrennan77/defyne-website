@@ -31,7 +31,7 @@
       <div class="row h-100 align-items-center">
       	<div class="col-xs-12 col-lg-12 mx-auto text-center home-hero" data-aos="zoom-in" data-aos-duration="800">
         	<h2 class="header">Redefining Payments</h2>
-			<p class="header">‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.<br />Simple, smooth and transparent. Our promise to our customers.<br /><span class="seagreen">The way it should be done</span>.</p>
+			<p class="header"><span>‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.</span><br /><span>Simple, smooth and transparent. Our promise to our customers.</span><br /><span><span class="seagreen">The way it should be done</span>.</span></p>
 			<p>
 				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
 				<a href="/products"><button class="btn btn-alt">Learn More</button></a>

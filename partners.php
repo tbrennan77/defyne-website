@@ -23,9 +23,9 @@
 	<div class="jumbotron jumbotron-fluid" style="background-image: url('img/group-94-2.png');">
 	  <div class="container">
 	  	<div class="row">
-	  		<div class="col-sm-12 col-lg-6 p-4">
-			    <p class="lead">Put the best of payments to work for you with one powerful platform<br /> - it’s Defying & Defining</p>
-			    <button class="btn btn-default hvr-grow">Let's Talk</button>
+	  		<div class="col-sm-12 col-lg-6 p-4 home-hero">
+	  			<h2 class="header">Defyne Partners</h2>
+			    <p class="lead"><span>Put the best of payments to work for you with one powerful platform.<br />It’s Defying & Defining</span></p>
 			</div>
 			<div class="hidden-md-down col-lg-6 p-4">
 				<img src="img/group-63.png" srcset="img/group-63@2x.png 2x, img/group-63@3x.png 3x" class="img-fluid" />
