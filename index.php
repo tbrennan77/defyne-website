@@ -45,7 +45,7 @@
       	<div class="container">
       		<div class="row">
 		      <div class="col-sm-12 text-center">
-		      	<h2 class="font-white">The Power of One - one solution, one company, one partner. Defyne Payments</h2>
+		      	<h2 class="font-banner">The Power of One - one solution, one company, one partner. Defyne Payments</h2>
 		      </div>
 		     </div>
 	    </div>
@@ -53,7 +53,7 @@
     </div><!-- /.container -->
 
     <!-- Carousel Row -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -68,7 +68,7 @@
                 <div class="fill" style="background-image: url('img/slider_1.jpg');"></div>
                 <div class="carousel-caption" data-aos="fade-up">
                 	 <img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
-                     <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                     <h2 class="title">EMV Chip Cards are here. Are you ready?</h2>
                      <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                 <div class="fill" style="background-image:url('img/slider_2.jpg');"></div>
                 <div class="carousel-caption">
                 	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
-                    <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                    <h2 class="title">Simplify your commerce with our seamless integration</h2>
                     <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 <div class="fill" style="background-image:url('img/slider_3.jpg');"></div>
                 <div class="carousel-caption">
                 	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
-                    <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
+                    <h2 class="title">Contactless payments for the next generation. Are you ready?</h2>
                     <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
@@ -110,7 +110,7 @@
 		    	<div class="row">
 		    		<div class="col-sm-12 text-center pt-4 pb-4">
 		    			<h2 class="pt-4 pb-2 blue">Setup to sell fast and get paid faster</h2>
-		    			<p style="font-size: 1.25em;">We make credit card processing simple. Accept Visa, MasterCard, Discover, and American Express with simplified wholesale pricing. Next Day Funding, with cutoff time of 11pm EST. <strong>Simple, Smooth, Transparent, and FAST.</strong></p>
+		    			<p style="font-size: 1.25em;">We make credit card processing simple. Accept Visa, MasterCard, Discover, and American Express with simplified wholesale pricing. Next Day Funding, with cutoff time of 11pm EST. <br /><strong>Simple, Smooth, Transparent, Flexible and FAST</strong></p>
 		    		</div>
 		    	</div>
 		    	<div class="row home-panels">
@@ -238,7 +238,7 @@
 						  </div>
 						  <div class="form-group">
 						  	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-						     <button type="submit" class="btn btn-default btn-contact hvr-grow">Let's Talk</button>
+						     <button type="submit" class="btn btn-default btn-contact hvr-grow">Submit</button>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-12 pb-4 mx-auto">

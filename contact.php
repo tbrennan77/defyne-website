@@ -52,7 +52,7 @@
 						     <div class="g-recaptcha" data-sitekey="6LeKXCcUAAAAACcDvb9-QfROQR6i-hl5ayDCpuOm"></div>
 						  </div>
 						  <div class="form-group">
-						     <button type="submit" class="btn btn-default" >Let's Talk</button>
+						     <button type="submit" class="btn btn-default" >Submit</button>
 						  </div>
 						</form>
 		    		</div>

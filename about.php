@@ -25,10 +25,7 @@
 	  	<div class="row">
 	  		<div class="col-sm-12 col-lg-6 p-4 home-hero">
 	  			<h2 class="header">Defyne Payments</h2>
-			    <p class="lead"><span>Put the best of payments to work for you with one powerful platform.<br />It’s Defying & Defining</span></p>
-			</div>
-			<div class="hidden-md-down col-lg-6 p-4">
-				<img src="img/group-63.png" srcset="img/group-63@2x.png 2x, img/group-63@3x.png 3x" class="img-fluid" />
+			    <p class="lead"><span>Put the best in payments to work for you with one powerful platform.<br />Defyne Your Success.</span></p>
 			</div>
 	    </div>
 	  </div>
@@ -39,7 +36,7 @@
     	<div class="row">
     		<div class="col-sm-12 text-center pt-4 pb-4">
     			<img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo img-fluid" />
-    			<h2 class="pt-4 pb-4 blue-h2">Defyne Payments was created in April 2017 with one vision - to merge the mindset of new technology companies entering the payments industry with the service, support and partnership that only the best of the best companies can deliver. By merging these business philosophies we are doing one thing: Re-Defyning Payments. Simple, Smooth, Transparent, Fast.</p>
+    			<h2 class="pt-4 pb-4 blue-h2">Defyne Payments was created in 2017 with one vision - to merge the mindset of new technology companies entering the payments industry with the service, support and partnership that only the best of the best companies can deliver. By merging these business philosophies we are doing one thing: Re-Defyning Payments. Simple, Smooth, Transparent, Flexible and Fast.</p>
     		</div>
     	</div>
     </div><!-- /.container -->
@@ -111,7 +108,7 @@
 		<div class="row">
 			<div class="col-12 col-md-6 col-lg-4">
 				<h1 class="blue">Headquarters</h1>
-				<p>Defyne Payments, LLC.<br />1165 Sanctuary Parkway<br />Alpharetta, GA 30009 USA</p>
+				<p>Defyne Holdings, LLC.<br />1165 Sanctuary Parkway Suite 325<br />Alpharetta, GA 30009 USA</p>
 				<p>
 					<a href="tel:18007115769">+1 (800) 711-5769</a><br />
 					<a href="mailto:info@defynepay.com">info@defynepay.com</a>
@@ -165,7 +162,7 @@
         var contentString = '<div class="info-window">' +
                 '<h3>Info Window Content</h3>' +
                 '<div class="info-content">' +
-                '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>' +
+                '<p>Defyne Holdings, LLC.<br />1165 Sanctuary Parkway Suite 325<br />Alpharetta, GA 30009 USA</p>' +
                 '</div>' +
                 '</div>';
 

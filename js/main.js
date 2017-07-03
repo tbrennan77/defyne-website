@@ -309,3 +309,11 @@ $(function() {
   });
 
 
+
+$(function() {
+  $('a').each(function() {
+    var href = $(this).attr('href');
+    $(this).attr('href', '/staging' + href);
+  });
+});
+

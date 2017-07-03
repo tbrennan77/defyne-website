@@ -5,9 +5,9 @@
     			<div class="row">
 		    		<div class="col-sm-12 text-center">
 		    			<small>
-							Defyne Payments, LLC is a registered ISO/MSP of the following banks: US Bank-Minneapolis MN, National Association Buffalo, NY, Elavon, Inc. Georgia.
-							<br />Defyne Payments, LLCis a registered ISO of Wells Fargo Bank, N.A., Walnut Creek, CA. American Express requires separate approval. 
-							<br />Defyne Payments, LLC is a registered ISO of Wells Fargo Bank, N.A., Canadian Branch, Toronto, ON, Canada.
+							Defyne Holdings, LLC is a registered ISO/MSP of the following banks: US Bank-Minneapolis MN, National Association Buffalo, NY, Elavon, Inc. Georgia.
+							<br />Defyne Holdings, LLC is a registered ISO of Wells Fargo Bank, N.A., Walnut Creek, CA. American Express requires separate approval. 
+							<br />Defyne Holdings, LLC is a registered ISO of Wells Fargo Bank, N.A., Canadian Branch, Toronto, ON, Canada.
 							<br />
 							Defyne Processing is a registered ISO of Esquire Bank N.A, Garden City NY.
 						</small>

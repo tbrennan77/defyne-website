@@ -22,11 +22,11 @@
 	<div class="jumbotron jumbotron-fluid" style="background-image: url('img/slider_1.jpg');">
 	  <div class="container">
 	  	<div class="row">
-	  		<div class="col-sm-12 col-lg-6 p-4 home-hero">
+	  		<div class="col-sm-12 col-lg-8 p-4 home-hero">
                 <h2 class="header">Defyne Products</h2>
-			    <p class="lead"><span>Put the best of payments to work</span><span> for you with one powerful platform</span><br /><span>It’s Defying & Defining</span></p>
+			    <p class="lead"><span>We have a specific solution for every business need. In addition, we support 99% of every third party product on the market today.</span></p>
 			</div>
-			<div class="hidden-md-down col-lg-6 p-4">
+			<div class="hidden-md-down col-lg-4 p-4">
 				
 			</div>
 	    </div>
@@ -58,7 +58,7 @@
                     <div class="leaderline cf">
                         <div class="exec">
                             <div class="exec-name">Mobile POS</div>
-                            <div class="exec-title">Defyne Mobile POS</div>
+                            <div class="exec-title"></div>
                         </div>
                         <div class="toggle-bio mobile"></div>
                         <div class="bio mobile" style="display: none;">
@@ -119,23 +119,7 @@
                         </div>
                     </div>    
                 </div>      
-            </div><!--// Close E-commerce -->      
-
-            <a id="sales"></a>
-            <div class="col-md-12 col-xs-12 col-xss-12"><!-- Sales Section -->
-                <div class="leadership sales">
-                    <div class="leaderline cf">
-                        <div class="exec">
-                            <div class="exec-name">Sales Central</div>
-                            <div class="exec-title"></div>
-                        </div>
-                        <div class="toggle-bio sales"></div>
-                        <div class="bio sales" style="display: none;">
-                             <p>Defyne Payments Sales Central product for Merchants is our complimentary reporting, accounting and analytics back office solution for small and medium size merchants. Variety of reporting tools along with easy to read and understand charts enables merchants to analyze their sales and improve performance. Bank account reconciliation has never been easier with our ACH transaction, Deposit, Retrieval, Chargebacks reports. Integrated UP Insights module is a business dashboard that gives merchants a 360 degree view of their business. With our Merchant Analytics module, merchants are able to compare current revenue, online reputation, and social media activity to their past performance and similar businesses in their area. Ticket system allows to effectively communicate with our service and tech support personnel in order to resolve problems if any.</p>
-                        </div>
-                    </div>    
-                </div>      
-            </div><!-- // Close Sales -->        
+            </div><!--// Close E-commerce -->          
 
             <a id="event"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Event Processing Section -->
@@ -227,9 +211,9 @@
                              <h4>Smart</h4>
                              <p>Purpose-built from the ground up with you and your customers’ security and privacy as a priority. The Poynt Smart Terminal meets the highest PCI and EMV requirements, comes with 24/7 fraud and tamper detection, and uses state-of-the-art, end-to-end encryption technologies</p>
                              <h4>Flexible</h4>
-                             <p>Poynt HQ software helps you monitor and manage transactions from any where remove comma, in real time. Poynt also merchants the ability to use third party applications to save time, make more money, and deliver capabilities that catapult your business into the future.</p>
+                             <p>Poynt HQ software helps you manage transactions from any where in real time. Poynt also merchants the ability to use third party applications to save time, make more money, and deliver capabilities that catapult your business into the future.</p>
                              <h4>Affordable</h4>
-                             <p>Arrives ready to go with a built-in payment terminal, register, scanner, printer, and optional external printer, and more. Or it can work seamlessly with the equipment you already own. Replace your outdated card reader terminal with Poynt smart point of sale system that will not break you bank. Starting at $350 with 24 month merchant account agreement.</p>
+                             <p>Arrives ready to go with a built-in payment terminal, register, scanner, printer, and optional external printer, and more. Or it can work seamlessly with the equipment you already own. Replace your outdated card reader terminal with Poynt smart point of sale system that will not break you bank. </p>
                         </div>
                     </div>    
                 </div>      
