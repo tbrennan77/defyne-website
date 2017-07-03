@@ -275,6 +275,7 @@ img.logo {
 .font-white {
 	color: #fff;
 	font-weight: 300;
+	text-transform: capitalize;
 }
 
 /* Home-Panels */
@@ -282,6 +283,7 @@ img.logo {
 	border: solid 2px #828282;
 	box-shadow: 3px 3px #ebebeb;
 	min-height: 360px;
+	margin-bottom: 30px;
 }
 .home-panels .panel strong {
 	display: block;
@@ -308,6 +310,7 @@ button, input, optgroup, select, textarea {
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 1px 1px #95989a;
+    margin-bottom: 20px;
 }
 
 .btn-default,
@@ -748,8 +751,8 @@ button.get-started {
 	    top: 1px;
 	}
 	.home-row {
-	    margin-top: 150px;
-	    min-height: 500px;
+	    margin-top: 200px;
+	    min-height: 900px;
 	}
 	.form-inline {
 		display: none;
@@ -773,6 +776,33 @@ button.get-started {
 	}
 	.header-scroll .navbar-collapse {
 		top: -2px;
+	}
+	.home-panels .panel {
+		min-height: 300px;
+	}
+	h2.title {
+		font-size: 32px;
+	}
+	.carousel-caption {
+	    top: 100px;
+	}
+	.hvr-grow {
+	    display: inline-block;
+	    vertical-align: middle;
+	    -webkit-transform: perspective(0px) translateZ(0);
+	    transform: perspective(0px) translateZ(0);
+	    box-shadow: 0 0 1px transparent;
+	    -webkit-transition-duration: 0.3s;
+	    transition-duration: 0.3s;
+	    -webkit-transition-property: none !important;
+	    transition-property: none !important;
+	}
+	.fullscreen-bg {
+		background: url(../video/Adobe_World.jpg);
+	    background-size: cover;	
+	}
+	.fullscreen-bg video {
+		display: none;
 	}
 }
 
@@ -800,7 +830,30 @@ button.get-started {
 		top: 3px;
 		margin-left: 0rem;
 	}
-
+	.home-row {
+	    margin-top: 150px;
+	    min-height: 500px;
+	}
+	.home-panels .panel {
+		min-height: 360px;
+	}
+	h2.title {
+		font-size: 42px;
+	}
+	.carousel-caption {
+	    top: 130px;
+	}
+	.hvr-grow {
+	    display: inline-block;
+	    vertical-align: middle;
+	    -webkit-transform: perspective(1px) translateZ(0);
+	    transform: perspective(1px) translateZ(0);
+	    box-shadow: 0 0 1px transparent;
+	    -webkit-transition-duration: 0.3s;
+	    transition-duration: 0.3s;
+	    -webkit-transition-property: transform;
+	    transition-property: transform;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -821,7 +874,13 @@ button.get-started {
 	.navbar-collapse {
 		top: 3px;
 	}
-
+	.fullscreen-bg {
+		background: url(../video/Adobe_World.jpg);
+	    background-size: cover;	
+	}
+	.fullscreen-bg video {
+		display: block;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */

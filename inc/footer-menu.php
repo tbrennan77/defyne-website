@@ -9,6 +9,22 @@
 		    		</div>
 		    		<div class="col-sm-12 col-lg-8">
 		    			<div class="row">
+		    				<div class="col-lg-3 col-sm-6">
+			    				<h4>Products</h4>
+			    				<ul>
+									<li><a href="/products#mobile">Mobile POS Systems</a></li>
+									<li><a href="/products#pos">Terminal System</a></li>
+									<li><a href="/products#mcommerce">M-Commerce Solutions</a></li>
+									<li><a href="/products#ecommerce">E-Commerce Solutions</a></li>
+									<li><a href="/products#sales">Sales Central</a></li>
+									<li><a href="/products#event">Event Processing</a></li>
+									<li><a href="/products#emv">EMV/NFC/Apple Pay</a></li>
+									<li><a href="/products#gift">Gift Cards</a></li>
+									<li><a href="/products#loyalty">Loyalty Cards</a></li>
+									<li><a href="/products#poynt">Poynt</a></li>
+			    				</ul>
+		    				</div>
+
 			    			<div class="col-lg-3 col-sm-6">
 			    				<h4>Company</h4>
 			    				<ul>
@@ -18,18 +34,7 @@
 									<li><a href="/contact">Contact</a></li>
 			    				</ul>
 			    			</div>
-			    			<div class="col-lg-3 col-sm-6">
-			    				<h4>Products</h4>
-			    				<ul>
-									<li>Point of Sale (POS) Systems</li>
-									<li>Terminal System</li>
-									<li>Mobile Payments</li>
-									<li>Payment Gateway</li>
-									<li>Virtual Terminals</li>
-									<li>Shopping Cart API</li>
-									<li>Credit Card Terminals</li>
-			    				</ul>
-		    				</div>
+			    			
 		    				<div class="col-lg-3 col-sm-6">
 		    					<h4>Partners</h4>
 		    					<ul>

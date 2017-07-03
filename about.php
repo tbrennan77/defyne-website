@@ -109,7 +109,7 @@
 	<!-- Map Container -->
 	<div class="container pt-4 mt-4">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-12 col-md-6 col-lg-4">
 				<h1 class="blue">Headquarters</h1>
 				<p>Defyne Payments, LLC.<br />1165 Sanctuary Parkway<br />Alpharetta, GA 30009 USA</p>
 				<p>
@@ -121,7 +121,7 @@
 					<a href="https://twitter.com">Follow us on Twitter</a>
 				</p>
 			</div>
-			<div class="col-8">
+			<div class="col-12 col-md-6 col-lg-8">
 				<div id="map-canvas"></div>
 			</div>
 		</div>

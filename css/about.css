@@ -286,3 +286,22 @@ font-weight: 300;
       padding: 0;
       height: 300px;
     }
+
+@media (min-width: 300px) { 
+    .leadership .leaderline .exec {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .leadership .leaderline .toggle-bio {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 576px) { 
+    .leadership .leaderline .exec {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    .leadership .leaderline .toggle-bio {
+        margin-top: 65px;
+    }
+}

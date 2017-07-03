@@ -19,8 +19,7 @@
 
     <!-- Full Screen BG Video -->
 	<div class="fullscreen-bg">
-		<div class="shading"></div>
-	    <video muted autoplay poster="video/Adobe_World.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
+		<video muted autoplay poster="video/Adobe_World.jpg" class="fullscreen-bg__video" src="video/Adobe_World.mp4">
 	        <source src="video/Adobe_World.mp4" type="video/mp4">
 	        <source src="video/Adobe_World.webm" type="video/webm">
 	    </video>
@@ -33,8 +32,8 @@
         	<h2 class="header">Redefining Payments</h2>
 			<p class="header"><span>‘Re<span class="seagreen">defyning</span>’ best in class service for our clients.</span><br /><span>Simple, smooth and transparent. Our promise to our customers.</span><br /><span><span class="seagreen">The way it should be done</span>.</span></p>
 			<p>
-				<a href="/contact"><button class="btn btn-default">Get Started Today</button></a>
-				<a href="/products"><button class="btn btn-alt">Learn More</button></a>
+				<a href="/staging/contact"><button class="btn btn-default">Get Started Today</button></a>
+				<a href="/staging/products"><button class="btn btn-alt">Learn More</button></a>
 			</p>
       	</div>
       </div>
@@ -70,7 +69,7 @@
                 <div class="carousel-caption" data-aos="fade-up">
                 	 <img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
                      <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
-                     <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
+                     <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -79,7 +78,7 @@
                 <div class="carousel-caption">
                 	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
                     <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
-                    <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
+                    <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -88,7 +87,7 @@
                 <div class="carousel-caption">
                 	<img src="img/group-95.png" srcset="img/group-95@2x.png 2x, img/group-95@3x.png 3x" />
                     <h2 class="title">EMV Chip Card, and Apple Pay (NFC) capability embedded within our Integration. Are You Ready?</h2>
-                    <a href="/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
+                    <a href="/staging/products"><button class="btn btn-alt hvr-grow mt-4">Learn More</button></a>
                 </div>
             </div>
         </div>
@@ -154,7 +153,7 @@
 		    	</div>
 		    	<div class="row">
 		    		<div class="col-sm-12 text-center pt-4 pb-4">
-		    			<button class="mt-4 mb-4 btn btn-default hvr-grow get-started">Get Started Today</button>
+		    			<a href="/staging/contact"><button class="mt-4 mb-4 btn btn-default hvr-grow get-started">Get Started Today</button></a>
 		    		</div>
 		    	</div>
 		    </div><!-- /.container -->
@@ -166,7 +165,7 @@
     	<div class="row">
     		<div class="container">
     			<div class="row">
-    				<div class="col-lg-5 col-sm-12 pt-4 pb-4 font-alt">
+    				<div class="col-lg-5 col-sm-12 col-12 pt-4 pb-4 font-alt">
 	    				<h2 class="header white">Defyne Solution Suite</h2>
 	    				<p>We offer the following solutions in addition to connectivity with virtually any third-party technology platform or gateway.</p>
 
@@ -177,9 +176,9 @@
 	    					<li>Aptito POS</li>
 	    				</ul>
 	    				<p><strong>We service all industries and businesses.</strong></p>
-						<button class="mt-4 mb-4 btn btn-alt hvr-grow ">Learn More</button>
+						<a href="/staging/contact"><button class="mt-4 mb-4 btn btn-alt hvr-grow ">Learn More</button></a>
     				</div>
-    				<div class="col-sm-0 col-lg-7">
+    				<div class="hidden-md-down col-lg-7">
     					<img src="img/carlos-muza-84523-1.png" data-aos="slide-left" data-aos-duration="1200" />
     				</div>
     			</div>
@@ -214,12 +213,12 @@
     	<div class="row">
 		    <div class="container contact" data-aos="fade-down">
 		    	<div class="row pt-4 pb-4">
-		    		<div class="col-sm-8 text-center mx-auto">
+		    		<div class="col-12 col-sm-8 text-center mx-sm-auto">
 		    			<h2 class="pt-4 pb-4 white">Ready to Start a Conversation?</h2>
 		    			<p class="pt-4 pb-4" style="color: #fff;">Give us a call <strong><a href="tel:18007115769">+1 (800) 711-5769</a></strong>, or send us a message and we’d be happy to help you save time, money, and simplify your payment processing!</p>
 		    		</div>
-		    		<div class="col-sm-12" id="form-messages"></div>
-		    		<div class="col-sm-8 text-center pb-4 mx-auto">
+		    		<div class="col-12 col-sm-8" id="form-messages"></div>
+		    		<div class="col-12 col-sm-8 text-center pb-4 mx-auto">
 		    			<form id="ajax-contact" method="post" action="script/mailer.php">
 						  <div class="form-group pt-4">
 						    <input class="" type="email" placeholder="Enter email" name="email" id="email" required />

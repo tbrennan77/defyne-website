@@ -38,10 +38,10 @@
 						    <input class="form-control" type="text" placeholder="Company Name" id="company" />
 						  </div>
 						  <div class="form-group row">
-							  <div class="col-6">
+							  <div class="col-12 col-md-6 mb-4-md">
 							     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email" required />
 							  </div>
-							  <div class="col-6">
+							  <div class="col-12 col-md-6 mb-4-md">
 							    <input class="form-control" type="tel" placeholder="Phone" id="phone" />
 							  </div>
 						  </div>

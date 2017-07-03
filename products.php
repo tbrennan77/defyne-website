@@ -46,10 +46,13 @@
 
     <!-- Services Row -->
     <div class="container services">
-        <div class="title text-center">
-            <h1 class="blue">Our Services</h1>
+        <div class="row">
+            <div class="title text-center col-12">
+                <h1 class="blue">Our Products</h1>
+            </div>
         </div>
-
+        <div class="row">
+            <a id="mobile"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Mobile POS Section -->
                 <div class="leadership mobile">
                     <div class="leaderline cf">
@@ -66,6 +69,7 @@
                 </div>
             </div><!-- // Close Mobile -->
 
+            <a id="pos"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- POS Section -->
                 <div class="leadership pos">
                     <div class="leaderline cf">
@@ -81,6 +85,7 @@
                 </div>
             </div><!-- // Close POS  -->
         
+            <a id="mcommerce"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- M-commerce Section -->
                 <div class="leadership mcommerce">
                     <div class="leaderline cf">
@@ -98,6 +103,7 @@
                 </div>      
             </div><!-- // Close M-commerce  -->
 
+            <a id="ecommerce"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- E-Commerce Section -->
                 <div class="leadership ecommerce">
                     <div class="leaderline cf">
@@ -115,6 +121,7 @@
                 </div>      
             </div><!--// Close E-commerce -->      
 
+            <a id="sales"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Sales Section -->
                 <div class="leadership sales">
                     <div class="leaderline cf">
@@ -130,6 +137,7 @@
                 </div>      
             </div><!-- // Close Sales -->        
 
+            <a id="event"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Event Processing Section -->
                 <div class="leadership event">
                     <div class="leaderline cf">
@@ -145,6 +153,7 @@
                 </div>      
             </div><!-- // Close Event  -->     
 
+            <a id="emv"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- EMV Section -->
                 <div class="leadership emv">
                     <div class="leaderline cf">
@@ -161,6 +170,7 @@
                 </div>      
             </div><!-- // Close EMV  -->  
 
+            <a id="gift"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Gift Cards Section -->
                 <div class="leadership gift">
                     <div class="leaderline cf">
@@ -183,6 +193,7 @@
                 </div>      
             </div><!-- // Close Gift Cards  -->  
 
+            <a id="loyalty"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Loyalty Cards Section -->
                 <div class="leadership loyalty">
                     <div class="leaderline cf">
@@ -201,7 +212,7 @@
                     </div>    
                 </div>      
             </div><!-- // Close Loyalty Cards  -->  
-
+            <a id="poynt"></a>
             <div class="col-md-12 col-xs-12 col-xss-12"><!-- Poynt Section -->
                 <div class="leadership Poynt">
                     <div class="leaderline cf">
@@ -223,7 +234,7 @@
                     </div>    
                 </div>      
             </div><!-- // Close Poynt -->              
-
+        </div>
     </div> <!-- /.container -->           
 
 
