@@ -23,7 +23,7 @@ gulp.task('default', function (callback) {
 })
 
 gulp.task('sass', function(){
-  return gulp.src('app/scss/styles.scss')
+  return gulp.src('scss/styles.scss')
     .pipe(sass()) // Using gulp-sass
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({
@@ -33,9 +33,9 @@ gulp.task('sass', function(){
 
 // Gulp Watch
 gulp.task('watch', ['browserSync', 'sass'], function(){
-  gulp.watch('app/scss/**/*.scss', ['sass']); 
+  gulp.watch('scss/**/*.scss', ['sass']); 
   gulp.watch('*.php', browserSync.reload); 
-  gulp.watch('app/js/**/*.js', browserSync.reload); 
+  gulp.watch('js/**/*.js', browserSync.reload); 
 })
 
 // BrowserSync
@@ -47,7 +47,7 @@ gulp.task('browserSync', function() {
 
 // UseRef 
 gulp.task('useref', function(){
-  return gulp.src('app/*.php')
+  return gulp.src('*.php')
     .pipe(useref())
     // Minifies only if it's a JavaScript file
     .pipe(gulpIf('*.js', uglify()))
@@ -58,7 +58,7 @@ gulp.task('useref', function(){
 
 // Minify Images and cache them
 gulp.task('images', function(){
-  return gulp.src('app/images/**/*.+(png|jpg|jpeg|gif|svg)')
+  return gulp.src('images/**/*.+(png|jpg|jpeg|gif|svg)')
   // Caching images that ran through imagemin
   .pipe(cache(imagemin({
       interlaced: true
@@ -68,7 +68,7 @@ gulp.task('images', function(){
 
 // Gulp will copy `fonts` from `app` to `dist` whenever you run 'gulp fonts'
 gulp.task('fonts', function() {
-  return gulp.src('app/fonts/**/*')
+  return gulp.src('fonts/**/*')
   .pipe(gulp.dest('dist/fonts'))
 })
 
