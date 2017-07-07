@@ -41,7 +41,7 @@ gulp.task('watch', ['browserSync', 'sass'], function(){
 // BrowserSync
 gulp.task('browserSync', function() {
   browserSync.init({
-        proxy: "http://localhost:8888/app/  "
+        proxy: "http://localhost:8888/"
     });
 })
 
